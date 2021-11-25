@@ -119,6 +119,6 @@ json_final = scrapeo_init() #Tiene que ser en minuscula
 print(json_final)
 
 #Para guardarlo bonito :D
-with open('20mins.json', 'w', encoding='utf-8') as f:
+with open('textos/20mins.json', 'w', encoding='utf-8') as f:
     json.dump(json_final, f, ensure_ascii=False, indent=4)
 
