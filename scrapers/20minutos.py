@@ -39,7 +39,6 @@ def scraper(categoria):
                 
         
         ######Conseguir las url_noticia de las pagina
-        # Conseguir urls de los pisos
         url_20mins = "https://www.20minutos.es/"
         noticias = []
         
