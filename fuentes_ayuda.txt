@@ -1,0 +1,4 @@
+https://www.bogotobogo.com/python/NLTK/tf_idf_with_scikit-learn_NLTK.php
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer.fit_transform
+https://medium.com/@imamun/creating-a-tf-idf-in-python-e43f05e4d424
+https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a

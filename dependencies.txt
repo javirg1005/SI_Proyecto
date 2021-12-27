@@ -1,2 +1,4 @@
 nltk
 BeautifulSoup
+pandas
+sklearn

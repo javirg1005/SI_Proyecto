@@ -1,66 +1,87 @@
 import string
 import os
 import re
-import pandas as pd
+import gensim
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
-from sklearn.feature_extraction.text import TfidfVectorizer
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
+class DocProcessing:
 
-def read_docs():
-    token_dict = {}
-    # I get the absolute path of the current file to get the path of the directory of the project
-    absolute_path = os.path.abspath(__file__)
-    project_dir_path = os.path.dirname(absolute_path)
-    # I use the project directory path to build the path for the news folder
-    news_path = project_dir_path + "\\noticias"
-    # I navigate through the directories to get all news files
-    for dirpath, dirs, files in os.walk(news_path):
-        for f in files:
-            fname = os.path.join(dirpath, f)
-            print("fname=", fname)
-            with open(fname, encoding="utf-8") as pearl:
-                text = pearl.read().lower()
-                token_dict[f] = re.sub("[" + string.punctuation + "¿¡“”]", "", text)
+    def __init__(self):
+        f = open("lista_parada.txt", "r", encoding="utf-8",)
+        self.stop_words = f.read().split('\n')
+        f.close()
+        # read files and store in dic. Then tokenize and stem each one
+        self.docs = self.read_docs()
+        self.docs_stems = self.tokenize_and_stem_docs(self.docs.values())
 
-    return token_dict
+        # Create dictionary of stems
+        self.dictionary = gensim.corpora.Dictionary(self.docs_stems)
+        # Store the corpus (bag of words), which contains the words and frecuency in each doc
+        self.corpus = [self.dictionary.doc2bow(doc) for doc in self.docs_stems]
+        # Convert to td-idf for tokens' weight
+        self.tf_idf = gensim.models.TfidfModel(self.corpus)
 
-def tokenize_and_stem(text):
-    f = open("lista_parada.txt", "r", encoding="utf-8",)
-    stop_words = f.read().split('\n')
-    f.close()
-    # Tokenize and filter stop words
-    tokens = [x for x in word_tokenize(text) if x not in stop_words]
-    stems = []
-    stemmer = SnowballStemmer("spanish")
-    #Stemming
-    for item in tokens:
-        stems.append(stemmer.stem(item))
-    return stems
-    
+        # Create a similarity measure object
+        self.sims = gensim.similarities.Similarity('similarity_object/', self.tf_idf[self.corpus], num_features=len(self.dictionary))s
 
-#calling the TfidfVectorizer
-vectorize= TfidfVectorizer(tokenizer = tokenize_and_stem)
-#fitting the model and passing our sentences right away:
-docs = read_docs()
-response = vectorize.fit_transform(docs.values())
-#response= vectorize.fit_transform([firstV, secondV])
+    def read_docs():
+        token_dict = {}
+        # I get the absolute path of the current file to get the path of the directory of the project
+        absolute_path = os.path.abspath(__file__)
+        project_dir_path = os.path.dirname(absolute_path)
+        # I use the project directory path to build the path for the news folder
+        news_path = project_dir_path + "\\noticias"
+        # I navigate through the directories to get all news files
+        for dirpath, dirs, files in os.walk(news_path):
+            for f in files:
+                fname = os.path.join(dirpath, f)
+                print("fname=", fname)
+                with open(fname, encoding="utf-8") as pearl:
+                    text = pearl.read().lower()
+                    token_dict[f] = re.sub("[" + string.punctuation + "¿¡“”]", "", text)
 
-feature_names = vectorize.get_feature_names()
-wordlist = ""
-for col in response.nonzero()[1]:
-    #print(feature_names[col], ' - ', response[0, col])
-    wordlist += feature_names[col]+"\n"
+        return token_dict
 
-# MAKE DATAFRAME WITH DOCS AND WORDS TD-IDF 
-df_tfidfvect = pd.DataFrame(data = response.toarray(),index = docs.keys(), columns = feature_names)
+    def tokenize_and_stem_docs(self, docs):
+        # Tokenize and filter stop words
+        gen_docs = [[w.lower() for w in word_tokenize(text_doc) if w not in self.stop_words + list(string.punctuation) + ['¿','¡','“','”'] ] 
+                for text_doc in docs]
+        stems = []
+        stemmer = SnowballStemmer("spanish")
+        #Stemming
+        for doc in gen_docs:
+            stem_doc = []
+            for word in doc:
+                stem_doc.append(stemmer.stem(word))
+            stems.append(stem_doc)
 
-print("\nTD-IDF Vectorizer\n")
-print(df_tfidfvect)
+        return stems
 
-# Save wordlist 
-'''f = open("wordlist.txt", "w", encoding="utf-8")
-f.write(wordlist)
-f.close()'''
+    def tokenize_and_stem_query(self, query):
+        # Tokenize and filter stop words
+        query_doc = [w.lower() for w in word_tokenize(query) if w not in self.stop_words + list(string.punctuation) + ['¿','¡','“','”']]
+        stems = []
+        stemmer = SnowballStemmer("spanish")
+        #Stemming
+        for word in query_doc:
+            stems.append(stemmer.stem(word))
+
+        return stems
+
+    def query_sim(self, query):
+        #tokenize and stem
+        query_stems = self.tokenize_and_stem_query(query)
+        #update an existing dictionary and create bag of words
+        query_doc_bow = self.dictionary.doc2bow(query_stems) 
+        # Convert the bag of words to td-idf for tokens' weight
+        query_doc_tf_idf = self.tf_idf[query_doc_bow]
+        # perform a similarity query against the corpus
+        return self.sims[query_doc_tf_idf]
+
+
+
+    #query similirarity
+    query = "Saturno es el sexto planeta desde el sol"
+    print(query_sim(query, dictionary, sims))
+
