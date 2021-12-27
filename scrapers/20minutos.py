@@ -9,7 +9,7 @@ def scraper(categoria):
     fechaAnterior = ""
 
     #Pillar todas las urls en las paginas
-    for paginas in range(2,4): #Se empieza a partir de la segunda para facilitar la busqueda por url porque la 1 no tiene numero
+    for paginas in range(1,3): #Se empieza a partir de la segunda para facilitar la busqueda por url porque la 1 no tiene numero
             
         # Conseguimos la URL
         url_base = "https://www.20minutos.es/"
@@ -37,7 +37,10 @@ def scraper(categoria):
         #print("Lista de URLS: ")
         #print(urls)
             
-                
+        if(categoria == 'salud/medicina'):
+            categoria = 'salud'
+        elif(categoria == 'tecnologia/emprendimiento'):
+            categoria = 'tecnologia'    
         
         ######Conseguir las url_noticia de las pagina
         #url_20mins = "https://www.20minutos.es/"
@@ -110,6 +113,7 @@ def scraper(categoria):
                 noticiasDiarias = 1
             else:
                 noticiasDiarias = noticiasDiarias + 1
+                
         
             fichero = "../noticias/20Minutos/" + categoria + "/" + categoria + "." + nuevaFecha + "." + str(noticiasDiarias).zfill(3) + ".txt"
             
@@ -169,7 +173,7 @@ def scraper(categoria):
 # Se crea el JSON
 
 def scrapeo_init():
-    categorias = ['ciencia'] #Categorias a revisar, mirar que esten asi en el periodico (url)
+    categorias = ['ciencia', 'salud/medicina', 'tecnologia/emprendimiento'] #Categorias a revisar, mirar que esten asi en el periodico (url)
     #json_final = []
     for categoria in categorias:
         #print(categoria)

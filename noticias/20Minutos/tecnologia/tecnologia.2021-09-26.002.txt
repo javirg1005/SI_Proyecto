@@ -1,0 +1,11 @@
+https://www.20minutos.es/tecnologia/emprendimiento/este-joven-espanol-ha-construido-unos-brazos-mecanicos-como-el-doctor-octopus-asi-es-la-tecnologia-que-ha-empleado-4832037/
+#####
+Ana Higuera
+#####
+2021-09-26
+#####
+Este joven español ha construido unos brazos mecánicos como el Doctor Octopus
+#####
+Las piezas de estos brazos se construyeron con una impresora 3D y motores para proporcionar movilidad a las articulaciones.Fabrica una máquina de rayos X casera después de pagar una factura del hospital de cerca de 70.000 dólares.
+#####
+ Tomás Castellanos, un joven de 25 años, ha fabricado en su casa una armadura de Iron Man con comandos de voz a tamaño real y unos brazos mecánicos que están impulsados por motores -como se se tratase del Dr. Octopus-. A pesar de que no tiene estudios relacionados con la programación y robótica, es cierto que el interés por este mundo tecnológico viene procedido a través de su padre. Tras visualizar el tráiler de la nueva película de Spider-Man, Tomás se planteó el hecho de fabricar los brazos del Dr. Octopus como un reto personal, empleando un sistema de piezas sólidas con motores para llevarlo a cabo. El paso más complicado han sido los botones debido a que se deben soldar las resistencias, no obstante, el coste de fabricación ha sido más elevado porque necesitaba más materiales como el estaño, tubos termoretráctiles y un soldador. Las extremidades mecánicas poseen ocho motores, tres de ellos se emplean para hacer la función de pinza y el más grande es la base del brazo, asimismo, su resistencia es muy elevada. El año pasado quiso construir la armadura de Iron Man y tras diez meses de esfuerzos constantes, lijar piezas 3D para dejarlas en perfecto estado para hacer la fabricación y hacer la electrónica, Tomás terminó su proyecto en febrero de este año. El coste de dichas piezas impresas oscilaron los 1.000 euros y la electrónica viene acompañada con sonidos JARVIS y reconocimiento de voz para que pudiese responder a las peticiones del joven. Para llevar a cabo este superhéroe utilizó ‘Arduino’, una plataforma de creación de electrónica de código abierto que está basada en un hardware y software libre que es fácil de usar para los creadores. Apúntate a nuestra newsletter y recibe en tu correo las últimas noticias sobre tecnología.
