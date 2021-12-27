@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=1024" name="viewport"/>
+<link href="https://imagenes.20minutos.es" rel="dns-prefetch"/><link href="https://sdk.privacy-center.org" rel="dns-prefetch"/><link href="https://sb.scorecardresearch.com" rel="dns-prefetch"/><link href="https://cdns.eu1.gigya.com" rel="dns-prefetch"/><link href="https://www.googletagmanager.com" rel="dns-prefetch"/><link href="https://www.googletagservices.com" rel="dns-prefetch"/><link href="https://hb.20m.es" rel="dns-prefetch"/><link href="https://securepubads.g.doubleclick.net" rel="dns-prefetch"/><link href="https://static.criteo.net" rel="dns-prefetch"/><link href="https://dkumiip2e9ary.cloudfront.net" rel="dns-prefetch"/><link href="https://dt15fd2xumytl.cloudfront.net" rel="dns-prefetch"/><link href="https://comentarios.20minutos.es" rel="dns-prefetch"/><link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/><meta content="index,follow" name="robots"><meta content="Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes" name="title"/><meta content="Es algo que nos sale casi de manera espontánea: vemos a un bebé y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubie" name="description"/><meta content="Ciencia,Bebés" name="keywords"/><meta content="Ciencia,Bebés" name="news_keywords"/><link href="https://amp.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/" rel="amphtml"/><link href="https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/" rel="canonical"/><meta content="article" property="og:type"><meta content="https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/" property="og:url"><meta content="www.20minutos.es - Últimas Noticias" property="og:site_name"/><meta content="217041948309757" property="fb:app_id"><meta content="38352573027" property="fb:pages"/><meta content="es_ES" property="og:locale"><meta content="Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes" property="og:title"><meta content="Es algo que nos sale casi de manera espontánea: vemos a un bebé y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubierto que es bueno para ellos." property="og:description"><meta content="https://imagenes.20minutos.es/files/og_20m/uploads/imagenes/2019/03/05/858748.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="summary_large_image" name="twitter:card"/><meta content="@20m" name="twitter:site"/><meta content="20m" name="twitter:creator"/><meta content="https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/" name="twitter:url"><meta content="Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes" name="twitter:title"><meta content="Es algo que nos sale casi de manera espontánea: vemos a un bebé y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubierto que es bueno para ellos." name="twitter:description"/><meta content="https://imagenes.20minutos.es/files/twitter_20m/uploads/imagenes/2019/03/05/858748.jpg" name="twitter:image"/><meta content="Bebés" property="article:tag"/> <meta content="600; url=https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/?autoref=true" http-equiv="Refresh"/><!-- Datalayer --><script>
+            dataLayer = [
+                    {
+        "layout" : "articulo",
+        "categoria_id" : "21",
+        "categoria" : "ciencia",
+        "subcategoria_id" : "",
+        "subcategoria" : "",
+        "terciariacategoria_id" : "",
+        "terciariacategoria" : "",
+        "isVertical" : "0",
+        "lastmodify" : "777",
+        "createdby" : "777",
+        "firma" : "20minutos",
+        "fechapublicacion" : "20211211",
+        "fechaactualizacion" : "2021-12-11 14:09:33",
+        "semantictag" : "",
+        "semanticCategory" : "",
+        "keywords" : "Ciencia,Bebés",
+        "noticia_id" : "4922275",
+        "user_logged" : "0",
+        "user_id" : "",
+        "sesionCount" : "",
+        "mediatype" : "imagen",
+        "accesstype" : "abierto",
+        "seotag" : "bebes",
+        "platform" : "desktop",
+        "gaid" : "",
+        "superusuario" : "",
+        "kid" : ""
+        }
+            ];
+        </script><!-- End Datalayer --><meta content="hHmd_lXK-PR-Q8NtBojQ-rauw3RfbP3HoRqmf8y3O9o" name="google-site-verification"/><meta content="FEFB9C7AAA84047559979888837C0022" name="msvalidate.01"/><meta content="max-image-preview:large" name="robots"/><meta content="20minutos" name="author"/><meta content="ES" name="geo.region"/><meta content="40.463667;-3.74922" name="geo.position"/><meta content="40.463667;-3.74922" name="ICBM"/><meta content="News" name="genre"/><meta content="20minutos" name="owner"/><meta content="20minutos" name="contributor"/><meta content="20minutos" name="publisher"/><meta content="España, U.E." name="locality"/><meta content="es" name="language"/><meta content="General" name="rating"/><meta content="217041948309757" property="fb:app_id"/><!-- FB index meta-tags --><meta content="false" property="article:opinion"/><meta content="metered" property="article:content_tier"/><meta content="region:esp" property="article:location"/><meta content="Science &amp; Engineering Disciplines" property="article:tag"/><!-- end FB index meta-tags --><meta content="Ciencia" property="content:section"/><meta content="https://www.facebook.com/20minutos.es/" property="article:publisher"/><meta content="Ciencia" property="article:section"/><meta content="2021-12-11T14:09:33+01:00" property="article:modified_time"/><meta content="2021-12-11T14:09:26+01:00" property="article:published_time"/> <title>
+                            Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes</title>
+<link href="https://www.20minutos.es/static/css/4158e47.css?1639591256" rel="stylesheet"> <script src="https://www.20minutos.es/static/js/20m.js?1639591256"></script><script src="https://www.20minutos.es/static/js/lazy-lib-common.js?1639591256"></script><script defer="" src="https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_Hob3SXLWsBRwjPFz4f4ZEuxPo2PyeElFMWgWO2EXdBYUqwMk8lxNj78Fi_2VW5cH&amp;lang=es">{sessionExpiration:-2}</script><script defer="" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js" type="text/javascript"></script><script defer="" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-messaging.js" type="text/javascript"></script><script type="text/javascript">
+    const __isAmpReferrer = window.location.href && window.location.href.includes('#amp=1');
+
+    window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("6e7011c3-735d-4a5c-b4d8-c8b97a71fd01")})();
+</script><script data-vendor="c:vendor-prometeo" type="didomi/javascript">
+    var _PROMETEO_MEDIA_SU=_PROMETEO_MEDIA_SU||function(){var n,o="_SUIPROMETEO",t=function(){var t=new XMLHttpRequest;t.open("GET","https://cmanager-prometeo.appspot.com/v1"),t.withCredentials=!0,t.onreadystatechange=function(){4==this.readyState&&200==this.status&&function(t){n=t||"0";var e=new Date;e.setTime(e.getTime()+2592e6),document.cookie=o+"="+n+"; expires="+e.toGMTString()+"; path=/"}(t.responseText)},t.send()};return function(){var t=document.cookie.match("(^|;)\\s*"+o+"\\s*=\\s*([^;]+)");n=t?t.pop():"0"}(),"0"===n&&t(),{read:function(){return n}}}();
+  </script><script>var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script><script>
+  googletag.cmd.push(function() {
+    var cseg = decodeURIComponent('; ' + document.cookie).split('; ' + 'btrseg' + '=').pop().split(';').shift().split(",");
+    if (cseg instanceof Array) {
+      googletag.pubads().setTargeting('cservi_segments', cseg);
+    }
+  });
+  </script><script>
+  googletag.cmd.push(function() {
+    googletag.pubads().setTargeting('su_prometeo', (typeof _PROMETEO_MEDIA_SU !== 'undefined' && typeof _PROMETEO_MEDIA_SU.read === 'function') ? _PROMETEO_MEDIA_SU.read() : '-1');
+  });
+  </script><script>
+  googletag.cmd.push(function() {
+
+    var getA = function (url) { var a = document.createElement('a'); a.href = url; return a; };
+
+    if (getA(document.referrer).hostname == getA(window.location).hostname
+      && getA(document.referrer).pathname == '/'
+      && ((getA(window.location).pathname.indexOf('/noticia/') !== -1)
+      || getA(window.location).pathname.match(/\/videos\/+./)
+      || getA(window.location).pathname.match(/\/encuesta\/+./))) {
+          googletag.pubads().setTargeting('bd_publi', 'followme');
+    }
+  });
+  </script><script>
+    !function(){window.hb_now=Date.now();var e=document.getElementsByTagName("script")[0],t="https://hb.20m.es/stable/config/xk.20minutos.es/desktop.min.js";window.location.search.match(/hb_test=true/)&&(t=t.replace("/stable/","/test/"));var n=document.createElement("script");n.async=!0,n.src=t,e.parentNode.insertBefore(n,e)}();
+    </script><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsMediaOrganization",
+        "name": "20minutos",
+        "foundingDate": "2000-02-03",
+        "missionCoveragePrioritiesPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#mision",
+        "ethicsPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#codigo-etico",
+        "verificationFactCheckingPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#verificacion",
+        "unnamedSourcesPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#fuentes",
+        "correctionsPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#correcciones",
+        "noBylinesPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#firma",
+        "actionableFeedbackPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#lectores",
+        "diversityPolicy": "https://www.20minutos.es/estaticos/buenas-practicas/#diversidad",
+        "diversityStaffingReport": "https://www.20minutos.es/estaticos/buenas-practicas/#diversidad",
+        "masthead": "https://www.20minutos.es/estaticos/buenas-practicas/#estructura",
+        "ownershipFundingInfo": "https://www.20minutos.es/estaticos/buenas-practicas/#codigo-etico",
+        "contactPoint" : {
+            "@type" : "ContactPoint",
+            "contactType" : "Newsroom Contact",
+            "email" : "20minutoseditora@20minutos.es"
+        },
+        "address": {
+            "name": "20minutos",
+            "telephone":"917 015 600",
+            "email": "20minutoseditora@20minutos.es",
+            "@type": "PostalAddress",
+            "addressLocality": "Madrid",
+            "postalCode": "28027",
+            "streetAddress": "Condesa de Venadito 1, 2a planta",
+            "url" : "https://www.20minutos.es" ,
+            "sameAs" : ["https://www.facebook.com/20minutos.es", "https://twitter.com/20m", "https://www.youtube.com/user/20minutos/"]
+        },
+        "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Henneo",
+          "logo" : "https://www.20minutos.es/static/images/logo-henneo.png"
+        }
+      ]
+    }
+    </script><script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+                    "@type": "ReportageNewsArticle",
+            "@id": "https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/",
+            "headline": "Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes",
+            "description": "Es algo que nos sale casi de manera espontánea: vemos a un bebé y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubierto que es bueno para ellos.",
+            "articleBody": "Es algo que nos sale casi de manera espontánea: vemos a un <a href=\u0022https:\/\/www.20minutos.es\/minuteca\/bebes\/\u0022 title=\u0022Bebés\u0022>bebé<\/a> y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubierto que <b>es bueno para ellos.<\/b> Investigadores de la Universidad de Florida han descubierto que los bebés de entre seis y ocho meses reaccionaban al sonido de la 'charla infantil' con un 'movimiento visible de labios y lengua', una señal potencial de que<b> estaban tratando de prepararse para el habla.<\/b> Reclutaron a poco más de <b>60 bebés<\/b>, que se sentaron en el regazo de sus padres o cuidadores mientras tocaban los dos sonidos vocales computarizados diferentes. Los investigadores querían evaluar las preferencias de los bebés por los sonidos vocales de los adultos o <b>los sonidos vocales de los bebés<\/b>, como explica Polka. \u0022Le presentamos al bebé dos tipos diferentes de sonidos (el bebé puede controlar cuándo se reproduce el sonido al observar un patrón visual)\u0022, explicó Polka.&nbsp;\u0022Medimos <b>cuánto tiempo escuchaban cada sonido<\/b> para ver si eligen escuchar más un sonido en comparación con el otro\u0022, dice la autora. Descubrieron que los niños de seis a ocho meses<b> \u0022mostraban una preferencia sólida y distinta\u0022<\/b> por el habla con resonancias de un tracto vocal similar en tamaño y longitud al suyo. Un tracto vocal pequeño, como el que tienen los bebés, conduce a sonidos más agudos, mientras que el tracto vocal grande de un adulto<b> crea un tono más bajo.&nbsp;<\/b> Curiosamente, investigaciones anteriores han demostrado que los niños de cuatro a seis meses no tenían esa preferencia. Por eso, los investigadores piensan que entre los seis y los ocho meses es la edad en la que los bebés se dan cuenta de que <b>pueden controlar sus voces <\/b>y hacer palabras a partir de balbuceos. En general, los experimentos mostraron que los bebés reaccionan más al sonido de las voces infantilizadas (de tono más alto, como si provinieran del tracto vocal de un bebé) con signos sutiles de que están <b>tratando de hablar,<\/b> en comparación con cuando escuchan a un adulto. Por tanto, el mensaje para los padres es que hablar más como un bebé puede ser una forma eficaz de provocar el habla de sus hijos. \u0022Existe alguna evidencia de que cuando las <b>madres hablan con su bebé<\/b> (en comparación con cuando hablan con otro adulto), levantan la laringe y abren los labios, lo que acorta la longitud del tracto vocal\u0022, dijo Masapollo. Si bien los cuidadores ciertamente no pueden acortar su tracto vocal lo suficiente para que coincida con la longitud del tracto vocal de su bebé, esta modificación en el habla puede hacer que los cuidadores suenen más como un bebé, lo que a su vez, <b>puede ayudar a atraer la atención del pequeño.<\/b> \u0022Desde esta perspectiva, el habla infantilizada preparará a los bebés para <b>procesar su propia voz <\/b>y los estimulará para que sean más activos vocalmente\u0022, añade. Tal y como recoge el <i><a href=\u0022https:\/\/www.dailymail.co.uk\/sciencetech\/article-10297051\/Baby-talk-help-infants-make-words-study-claims.html\u0022 target=\u0022_blank\u0022>Daily Mail<\/a><\/i>, <a href=\u0022https:\/\/pubs.asha.org\/doi\/10.1044\/2021_JSLHR-21-00412\u0022 target=\u0022_blank\u0022>la investigación<\/a> sostiene que cuando los padres se hacen pasar por un bebé cuando hablan a su hijo, es posible que los estén ayudando<b> a aprender a producir el habla antes<\/b>. El hecho de que los bebés reaccionen a los sonidos vocales infantiles con movimientos visibles de<b> labios y lengua <\/b>es algo que el equipo está examinando más directamente en experimentos en curso, dijo Masapollo. La voz infantilizada&nbsp;utiliza palabras adecuadas, pero pronunciadas en un patrón de entonación cantarina exagerada y prolongada,<b> generalmente en un tono más alto,<\/b> dice el estudio, publicado en el <i><a href=\u0022https:\/\/pubs.asha.org\/doi\/10.1044\/2021_JSLHR-21-00412\u0022 target=\u0022_blank\u0022>Journal of Speech, Language and Hearing Research<\/a><\/i>. Ya se creía que la forma en que instintivamente les hablamos a los bebés les ayuda a entender lo que les decimos. Ahora, la nueva investigación sugiere que esta 'charla infantil' también ayuda a los bebés a <b>aprender a producir su propio habla.<\/b> Este era un beneficio previamente desconocido, afirman los autores. \u0022Parece estimular la producción motora del habla, no solo la percepción del habla\u0022, dijo el autor del estudio, Matthew Masapollo, de la Universidad de Florida. <b>\u0022No es solo gu-gu-ga-ga\u0022, <\/b>añade. Al imitar el sonido de un tracto vocal más pequeño, piensan los investigadores, estamos <b>'dando pistas a los bebés' <\/b>sobre cómo deberían sonar las palabras que salen de sus propias bocas. Aunque hablar como un bebé puede parecer simple, <b>está logrando mucho,<\/b> según la coautora Linda Polka, de la Universidad McGill en Canadá. \u0022Estamos tratando de interactuar con el bebé para mostrarle algo sobre la producción del habla\u0022, dijo. \u0022Los estamos preparando para que<b> procesen su propia voz\u0022,<\/b> añade. En el estudio, los investigadores cambiaron la frecuencia de los sonidos para imitar el tracto vocal de un bebé o un adulto, y luego probaron <b>cómo reaccionaban los bebés.<\/b>",
+            "datePublished": "2021-12-11T14:09:26+01:00",
+            "dateModified": "2021-12-11T14:09:26+01:00",
+            "isAccessibleForFree": "false",            "publishingPrinciples": "https://www.20minutos.es/estaticos/buenas-practicas/",
+            "locationCreated": {"@type":"Place", "name":"España"},
+            "mainEntityOfPage": {
+                "@id": "https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2019/03/05/858748.jpg",
+                "width": "1200",
+                "height": "675"
+            },
+                    "author": {
+                "@type": "Person",
+                 "name": "20minutos"
+                                    ,"sameAs": "https://www.20minutos.es/autor/20minutos-a"
+                            },
+            "editor": {
+                "@type": "Person",
+                 "name": "Edu Casado"
+            },
+            "publisher": {
+                "@type": "NewsMediaOrganization",
+                "name": "20minutos",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.20minutos.es/static/images/logo_20m.png",
+                    "width": 600,
+                    "height": 60
+                }
+            }
+
+        }
+        </script><script src="https://www.20minutos.es/static/js/breaking-news.js?1639591256" type="text/javascript"></script><script async="true" src="//static.criteo.net/js/ld/publishertag.js" type="text/javascript"></script><script src="https://www.20minutos.es/static/js/04247d0.js?1639591256" type="text/javascript"></script><script type="text/javascript">
+        !function (e, f, u) {
+            e.async = 1;
+            e.src = u;
+            f.parentNode.insertBefore(e, f);
+
+        }(document.createElement('script'), document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/henneonetwork-20minutos/loader.js');
+    </script> <link href="https://www.20minutos.es/uploads/icons/favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="https://www.20minutos.es/uploads/icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="#0b419b" name="msapplication-TileColor"/>
+<meta content="https://www.20minutos.es/uploads/icons/icon_mediumtile.png" name="msapplication-square150x150logo"/>
+<meta content="#0b419b" name="theme-color"/>
+<!-- Google Tag Manager --><script>
+        window.addEventListener('DOMContentLoaded', () => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T7GD96G')
+            });</script><!-- End Google Tag Manager --><script type="application/javascript">
+        var page_type = "default";
+                var page_id = "4922275";
+            </script><link as="font" crossorigin="" href="https://www.20minutos.es/static/bundles/veinteminutoscms/fonts/kelson-bold.woff2" rel="preload"/><link as="font" crossorigin="" href="https://www.20minutos.es/static/bundles/veinteminutoscms/fonts/kelson-light.woff2" rel="preload"/><link as="font" crossorigin="" href="https://www.20minutos.es/static/bundles/veinteminutoscms/fonts/rubik-light.woff2" rel="preload"/> </link></meta></meta></meta></meta></meta></meta></meta></meta></meta></head>
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T7GD96G" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- comScore Tag -->
+<script type="text/javascript">
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(() => {
+      window._comscore = window._comscore || [];
+      window._comscore.push({c1: "2", c2: "8189131"});
+      (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/8189131/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+
+    });
+
+  </script>
+<noscript>
+<img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=8189131&amp;cs_ucfr=0&amp;cv=3.6&amp;cj=1"/>
+</noscript>
+<!-- End comScore Tag -->
+<!-- dogtrack Tag -->
+<script>
+
+        
+                
+        const _loadDogtrack = () => {
+            (function (d, s, id, h, t) {
+                var js, r, djs = d.getElementsByTagName(s)[0];
+                // if (d.getElementById(id)) {return;}
+                js = d.createElement('script');
+                js.id = id;
+                js.async = 1;
+                js.h = h;
+                js.t = t;
+                r = encodeURI(btoa(d.referrer));
+                js.src = "//" + h + "/pixel/js/" + t + "/" + r;
+                djs.parentNode.insertBefore(js, djs);
+            }(document, 'script', 'dogtrack-pixel', '20mi.spxl.socy.es', '20MI'));
+        }
+
+        const hn_loadDogtrack = (firstTime = false) => {
+            window.didomiOnReady = window.didomiOnReady || [];
+            window.didomiOnReady.push(function (Didomi) {
+                if (Didomi.getUserConsentStatusForVendor('c:vendor-dogtrack')) {
+                    _loadDogtrack();
+                    return;
+                }
+
+                if (!firstTime) {
+                    return;
+                }
+
+                Didomi.on('consent.changed', () => {
+                    if (Didomi.getUserConsentStatusForVendor('c:vendor-dogtrack')) {
+                        _loadDogtrack();
+                    }
+                });
+
+            });
+        }
+
+        hn_loadDogtrack(true);
+
+        document.addEventListener('is.history', (e) => {
+            hn_loadDogtrack();
+        });
+
+    </script>
+<!-- End comScore Tag -->
+<div class="axds" id="axds-x01">
+<div class="henneoHB" id="x01"></div>
+</div>
+<div id="axds-Skyscraper">
+<div class="henneoHB" id="x31"></div>
+<div class="henneoHB" id="x41"></div>
+</div>
+<header class="header-main"><div class="header-scroll-wrapper" id="ui-header-land"><div class="header-primary"><div class="logo"><a href="https://www.20minutos.es/"><img alt="Logo del sitio" height="150" src="https://www.20minutos.es/static/images/logo-20m.svg?20201211" width="154"/></a></div><div class="search-user"><ul><li class="search"><a><svg class="icon-search"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-search"></use></svg><svg class="icon-times" style="display:none"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-times"></use></svg></a></li><li class="user" id="ui_circle_user"><svg class="icon-user trk-cabecera-user" id="ui_fake_user"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-user"></use></svg></li></ul></div><div class="unfold-menu menu-user" data-effect="slide" id="ui_menu_user" style="display: none;"><ul><li><a class="loginGigya bttn trk-cabecera-entrar" href="#"><span>Entrar</span></a></li><li><a class="registerGigya bttn trk-cabecera-registarse" href="#"><span>Registrarse</span></a></li></ul></div><div class="unfold-menu menu-user" data-effect="slide" id="ui_logged_menu_user" style="display: none;"><ul><li class="profileGigya bttn"><span>Mi Perfil</span></li><li class="logoutGigya bttn"><span>Salir</span></li></ul></div><div class="section-menu"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="default-menu"><li class="nacional no-expandable first" itemprop="name"><h2><a href="https://www.20minutos.es/nacional/" itemprop="url"><span>Nacional</span></a></h2></li><li class="internacional no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/internacional/" itemprop="url"><span>Mundo</span></a></h2></li><li class="deportes no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/deportes/" itemprop="url"><span>Deportes</span></a></h2></li><li class="opinion no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/opinion/" itemprop="url"><span>Opinión</span></a></h2></li><li class="gente no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/gente/" itemprop="url"><span>Gente</span></a></h2></li><li class="economia no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/economia/" itemprop="url"><span>Economía</span></a></h2></li><li class="tecnologia no-expandable" itemprop="name"><h2><a href="https://www.20minutos.es/tecnologia/" itemprop="url"><span>20bits</span></a></h2></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/edicion_impresa/" itemprop="url"><span>Ed. Impresa</span></a></li><li class="primary-more link no-expandable last" itemprop="name"><span>Más</span></li></ul></nav></div><div class="unfold-menu primary-sub-menu hide"><div class="sub-menu-block sub-menu-topics"><div>Temas del día <i class="fal fa-angle-right"></i></div><ul class="default-topics-menu"><li class="link no-expandable first" itemprop="name"><a href="https://www.20minutos.es/noticia/4932447/0/a-que-hora-cierra-mercadona-otros-supermercados-24-25-diciembre/" itemprop="url"><span>Mercadona</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/tecnologia/mejores-memes-para-compartir-whatsapp-navidad-4932388/" itemprop="url"><span>Memes</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/noticia/4932217/0/mejores-frases-para-desear-una-feliz-navidad-2021/" itemprop="url"><span>Frases</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/noticia/4932044/0/horario-discurso-del-rey-navidad-2021/" itemprop="url"><span>Discurso del Rey</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/tecnologia/diez-frases-amor-para-felicitar-whatsapp-navidad-4932407/" itemprop="url"><span>Whatsapp</span></a></li><li class="link no-expandable last" itemprop="name"><a href="https://www.20minutos.es/noticia/4932458/0/felicitaciones-navidad-2021/" itemprop="url"><span>Felicitaciones</span></a></li></ul></div><div class="sub-menu-row"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><div class="sub-menu-block sub-menu-sections"><h2>Secciones</h2><div class="sections-col"><ul class="default-secciones-menu"><li class="andalucia no-expandable first" itemprop="name"><a href="https://www.20minutos.es/andalucia/" itemprop="url"><span>Andalucía</span></a></li><li class="cataluna no-expandable" itemprop="name"><a href="https://www.20minutos.es/cataluna/" itemprop="url"><span>Cataluña</span></a></li><li class="madrid no-expandable" itemprop="name"><a href="https://www.20minutos.es/madrid/" itemprop="url"><span>Madrid</span></a></li><li class="comunidad-valenciana no-expandable" itemprop="name"><a href="https://www.20minutos.es/comunidad-valenciana/" itemprop="url"><span>Valencia</span></a></li><li class="nacional no-expandable" itemprop="name"><a href="https://www.20minutos.es/nacional/" itemprop="url"><span>Nacional</span></a></li><li class="internacional no-expandable" itemprop="name"><a href="https://www.20minutos.es/internacional/" itemprop="url"><span>Internacional</span></a></li><li class="deportes no-expandable" itemprop="name"><a href="https://www.20minutos.es/deportes/" itemprop="url"><span>Deportes</span></a></li><li class="cultura no-expandable" itemprop="name"><a href="https://www.20minutos.es/cultura/" itemprop="url"><span>Cultura</span></a></li><li class="opinion no-expandable" itemprop="name"><a href="https://www.20minutos.es/opinion/" itemprop="url"><span>Opinión</span></a></li><li class="gente no-expandable" itemprop="name"><a href="https://www.20minutos.es/gente/" itemprop="url"><span>Gente</span></a></li><li class="cinemania no-expandable" itemprop="name"><a href="https://www.20minutos.es/cinemania/" itemprop="url"><span>Cinemanía</span></a></li><li class="economia no-expandable" itemprop="name"><a href="https://www.20minutos.es/economia/" itemprop="url"><span>Economía</span></a></li><li class="ciudades no-expandable" itemprop="name"><a href="https://www.20minutos.es/ciudades/" itemprop="url"><span>Tu ciudad</span></a></li><li class="television no-expandable" itemprop="name"><a href="https://www.20minutos.es/television/" itemprop="url"><span>TV</span></a></li><li class="salud no-expandable" itemprop="name"><a href="https://www.20minutos.es/salud/" itemprop="url"><span>Salud</span></a></li><li class="viajes no-expandable" itemprop="name"><a href="https://www.20minutos.es/viajes/" itemprop="url"><span>Viajes</span></a></li><li class="motor no-expandable" itemprop="name"><a href="https://www.20minutos.es/motor/" itemprop="url"><span>Motor</span></a></li><li class="ciencia no-expandable" itemprop="name"><a href="https://www.20minutos.es/ciencia/" itemprop="url"><span>Ciencia</span></a></li><li class="vivienda no-expandable" itemprop="name"><a href="https://www.20minutos.es/vivienda/" itemprop="url"><span>Vivienda</span></a></li><li class="empleo no-expandable" itemprop="name"><a href="https://www.20minutos.es/empleo/" itemprop="url"><span>Empleo</span></a></li><li class="tecnologia no-expandable" itemprop="name"><a href="https://www.20minutos.es/tecnologia/" itemprop="url"><span>Tecnología</span></a></li><li class="videojuegos no-expandable" itemprop="name"><a href="https://www.20minutos.es/videojuegos/" itemprop="url"><span>Videojuegos</span></a></li><li class="gonzoo no-expandable" itemprop="name"><a href="https://www.20minutos.es/gonzoo/" itemprop="url"><span>Gonzoo</span></a></li><li class="gastronomia no-expandable last" itemprop="name"><a href="https://www.20minutos.es/gastronomia/" itemprop="url"><span>Gastro</span></a></li></ul></div></div><div class="sub-menu-block sub-menu-services"><h2>Servicios</h2><ul class="default-services-menu"><li class="bt-impresa link external no-expandable first" itemprop="name"><a href="https://www.20minutos.es/edicion_impresa/" itemprop="url" target="_blank"><span>Ed. Impresa</span></a></li><li class="bt-compras link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/minuteca/20decompras/" itemprop="url" target="_blank"><span>20deCompras</span></a></li><li class="bt-newsletter link no-expandable" itemprop="name"><a href="https://www.20minutos.es/estaticos/home-newsletters/" itemprop="url"><span>Newsletters</span></a></li><li class="bt-horoscopo link no-expandable" itemprop="name"><a href="https://www.20minutos.es/horoscopo/" itemprop="url"><span>Horóscopo</span></a></li><li class="bt-listas link no-expandable" itemprop="name"><a href="https://www.20minutos.es/minuteca/listas/" itemprop="url"><span>Listas</span></a></li><li class="bt-blogs link no-expandable" itemprop="name"><a href="https://www.20minutos.es/blogs_opinion/" itemprop="url"><span>Blogs</span></a></li><li class="bt-fotos link no-expandable" itemprop="name"><a href="https://www.20minutos.es/fotos/" itemprop="url"><span>Fotos</span></a></li><li class="bt-videos link no-expandable last" itemprop="name"><a href="https://www.20minutos.es/videos/" itemprop="url"><span>Vídeos</span></a></li></ul></div><div class="sub-menu-block sub-menu-channels"><h2>Canales</h2><ul class="default-canales-menu"><li class="sportyou link external no_follow no-expandable first last" itemprop="name"><a href="https://www.sportyou.es/" itemprop="url" rel="nofollow" target="_blank"><span>Sportyou</span></a></li></ul></div><div class="sub-menu-block sub-menu-social"><h2>Redes</h2><ul class="default-redes-menu"><li class="facebook link external no_follow no-expandable first" itemprop="name"><a href="http://www.facebook.com/20minutos.es" itemprop="url" rel="nofollow" target="_blank"><span>Facebook</span></a></li><li class="twitter link external no_follow no-expandable" itemprop="name"><a href="http://twitter.com/20m" itemprop="url" rel="nofollow" target="_blank"><span>Twitter</span></a></li><li class="flipboard link external no_follow no-expandable" itemprop="name"><a href="https://flipboard.com/@20Minutos" itemprop="url" rel="nofollow" target="_blank"><span>Flipboard</span></a></li><li class="youtube link external no_follow no-expandable" itemprop="name"><a href="https://www.youtube.com/user/20minutos" itemprop="url" rel="nofollow" target="_blank"><span>Youtube</span></a></li><li class="instagram link external no_follow no-expandable" itemprop="name"><a href="http://instagram.com/20m" itemprop="url" rel="nofollow" target="_blank"><span>Instagram</span></a></li><li class="linkedin link external no_follow no-expandable" itemprop="name"><a href="http://www.linkedin.com/company/20-minutos" itemprop="url" rel="nofollow" target="_blank"><span>Linkedin</span></a></li><li class="whatsapp link external no_follow no-expandable last" itemprop="name"><a href="http://ver.20m.es/f0slr" itemprop="url" rel="nofollow" target="_blank"><span>Whatsapp</span></a></li></ul></div></nav></div><div class="sub-menu-block sub-menu-edition"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul><li>Edición
+                                        <svg class="icon-arrow-right"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-arrow-right"></use></svg></li><li class="selected" itemprop="name"><a href="https://www.20minutos.es/set_edition/es/" itemprop="url">España</a></li><li class="" itemprop="name"><a href="https://www.20minutos.es/set_edition/cat/" itemprop="url">Cataluña</a></li><li class="" itemprop="name"><a href="https://www.20minutos.es/set_edition/mad/" itemprop="url">Madrid</a></li><li class="" itemprop="name"><a href="https://www.20minutos.com" itemprop="url">Estados Unidos</a></li><li class="" itemprop="name"><a href="https://www.20minutos.com.mx" itemprop="url">México</a></li></ul></nav></div><div class="marketplace"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="default-marketplace-menu"><li class="juegos link external no-expandable first" itemprop="name"><a href="https://www.minijuegos.com/" itemprop="url" target="_blank"><span>Minijuegos</span></a></li><li class="citiservi link external no-expandable" itemprop="name"><a href="https://servicios.20minutos.es/" itemprop="url" target="_blank"><span>Guía Local</span></a></li><li class="descuentos link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/codigo-descuento" itemprop="url" target="_blank"><span>Códigos descuento</span></a></li><li class="finanzas link no-expandable last" itemprop="name"><a href="https://www.20minutos.es/servicios/productos-financieros/" itemprop="url"><span>Productos Financieros</span></a></li></ul></nav></div></div><div class="unfold-menu menu-search hide"><form action="https://www.20minutos.es/busqueda/" method="get"><input name="q" onsubmit="onSearchSubmit(this);" placeholder="¿Qué estás buscando?" type="text"/><a class="submit-action" onclick="jQuery(this).parent().submit(); return false;" title="Buscar"><svg class="icon-search"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-search"></use></svg></a><a class="show-advance" onclick="jQuery(this).parent().find($('.search-advance')).toggle('slide');"><svg class="icon-chevron-circle-down"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-chevron-circle-down"></use></svg> Buscador avanzado</a><div class="search-advance" style="display: none;"><fieldset><select id="busqueda-fecha" name="sort_field" onchange="" title="Busqueda fecha/relevancia"><option value="">Ordenar por</option><option value="publishedAt">Fecha</option><option value="score">Relevancia</option></select></fieldset><fieldset><select id="busqueda-seccion" name="category" onchange="" title="Busqueda sección"><option value="">Sección</option><option value="actualidad">Actualidad</option><option value="branded-content">Branded Content</option><option value="ciencia">Ciencia</option><option value="ciudades">Ciudades</option><option value="cultura">Cultura</option><option value="deportes">Deportes</option><option value="gastronomia">Gastronomía</option><option value="gente">Gente</option><option value="gonzoo">Gonzoo</option><option value="loterias">Lotería</option><option value="medio-ambiente">Medio Ambiente</option><option value="motor">Motor</option><option value="opinion">Opinión</option><option value="salud">Salud</option><option value="tecnologia">Tecnología</option><option value="television">Televisión</option><option value="viajes">Viajes</option><option value="videojuegos">Videojuegos</option><option value="zona-20">Zona 20</option><option value="paginas-libres">Más información</option><option value="noticias-positivas">Noticias positivas</option><option value="cinemania">Cinemanía</option><option value="especiales">Especiales</option></select></fieldset><fieldset><label>Desde:</label><input name="publishedAt[from]" step="1" type="date" value="Desde"/></fieldset><fieldset><label>Hasta:</label><input name="publishedAt[until]" step="1" type="date" value="Hasta"/></fieldset><fieldset><label class="input-check"><input id="1" name="articleTypes[]" type="checkbox" value="default"/><span class="checkmark"></span><span class="text-check">Artículo</span></label><label class="input-check"><input id="2" name="articleTypes[]" type="checkbox" value="galeria"/><span class="checkmark"></span><span class="text-check">Galería</span></label><label class="input-check"><input id="3" name="articleTypes[]" type="checkbox" value="video"/><span class="checkmark"></span><span class="text-check">Vídeo</span></label></fieldset></div></form></div></div><div class="header-secondary"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="section-menu section-menu-small"></ul></nav></div></div><div class="header-scroll-wrapper header-scroll-down header-fixed" id="ui-header-down" style="display: none;"><div class="header-primary header-scroll-down"><div class="logo"><a href="https://www.20minutos.es/"><img alt="Logo del sitio" height="150" src="https://www.20minutos.es/static/images/logo-20m.svg?20201211" width="154"/></a></div><div class="flex-container"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="section-menu"><li class="selected" itemprop="name"><h3><a href="https://www.20minutos.es/ciencia/" itemprop="url"><span>Ciencia</span></a></h3></li></ul></nav><div class="header-secondary"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="section-menu"></ul></nav></div><h1 class="notice-title">
+                        Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes
+                    </h1></div><div class="social social-share"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul><li class="facebook sharrre" itemprop="name"><a class="trk-share-scroll facebook sharrre" href="#" itemprop="url"><svg class="icon-facebook"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-facebook"></use></svg></a></li><li class="twitter sharrre" itemprop="name"><a class="trk-share-scroll twitter sharrre" href="#" itemprop="url"><svg class="icon-twitter"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-twitter"></use></svg></a></li><li class="whatsapp-desktop" itemprop="name"><a class="trk-share-scroll whatsapp-desktop" href="#" itemprop="url"><svg class="icon-whatsapp ui-share-whatsapp"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-whatsapp"></use></svg></a></li></ul></nav></div></div></div></header><script type="text/javascript">
+            $(function() {
+
+                $(document).ready(function(){
+                    $('.header-main #ui-header-land, .header-main #ui-header-up').find('li a[href="https://www.20minutos.es/ciencia/"]').parent().remove();
+                    $('.header-main #ui-header-land, .header-main #ui-header-up').find('li a[href="'+window.location.origin +'/ciencia/"]').parent().remove();
+                    $('.default-menu').prepend("<li itemprop=\"name\" class=\"selected\"><a itemprop=\"url\" href=\"/ciencia/\"><span>Ciencia</span></a></li>");
+                    var maxMenu = 6;
+                    $('.default-menu li').not($( ".default-menu li.primary-more" )).each(function( index, element ) {
+                        maxMenu--;
+                        if(maxMenu < 0){
+                            $(this).remove();
+                        }
+                    });
+
+                });
+            });
+        </script>
+<div class="page-custom-top">
+<div class="axds" id="axds-Top">
+<div class="henneoHB" id="Top"></div>
+</div>
+<div class="breaking-news-wrapper container">
+<div id="m20-18-21"><div class="breaking-news trk-ultimahora" id="m25-24-26">
+<span class="breaking-news-close closer-breaking-news"><svg class="icon-times-hexagon"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-times-hexagon"></use></svg></span>
+<span class="breaking-news-icon"><svg class="icon-exclamation-circle"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-exclamation-circle"></use></svg></span>
+<div>
+<span class="breaking-news-label" id="m33-32-34">ESTUDIO</span><a href="https://www.20minutos.es/salud/omicron-rebaja-eficacia-tercera-dosis-vacuna-coronavirus-10-semanas-4932873/" id="m38-37-39">Ómicron rebaja la eficacia de la tercera dosis de la vacuna a partir de las 10 semanas</a></div>
+</div></div>
+<div id="m20-18-21"><div class="breaking-news breaking-news-live trk-directo" id="m25-24-26">
+<span class="breaking-news-close closer-breaking-news-live"><svg class="icon-times-hexagon"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-times-hexagon"></use></svg></span>
+<span class="breaking-news-icon"><svg class="icon-podcast"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-podcast"></use></svg></span>
+<div>
+<span class="breaking-news-label" id="m33-32-34">COVID</span><a href="https://www.20minutos.es/salud/sanidad-vacunas-que-evitan-menos-contagios-coronavirus-4932806/" id="m38-37-39">Sanidad admite que no todas las vacunas han evitado igual los contagios de coronavirus</a></div>
+</div></div>
+</div>
+</div>
+<div id="m20-18-21"><div>
+<main class="page-article">
+<section class="article-titles">
+<div class="title"><h1 class="article-title" id="m25-24-26" itemprop="headline">Un estudio revela que dirigirse a los bebés con voces infantiles les ayuda a hablar antes</h1></div><span class="article-author"><a href="https://www.20minutos.es/autor/20minutos-a">
+<strong>20minutos</strong>
+</a> </span><span class="tooltip tooltip-article-info" data-tooltip-position="bottom" data-tooltip-title="Basado en hechos observados y verificados directamente por nuestros periodistas o por fuentes informadas.">NOTICIA</span><span class="article-date"><a href="https://www.20minutos.es/archivo/2021/12/11/">11.12.2021 - 14:09h</a></span><div class="social social-share"><ul><li class="facebook sharrre"><a class="facebook sharrre" href="#"><svg class="icon-facebook"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-facebook"></use></svg></a></li><li class="twitter sharrre"><a class="twitter sharrre" href="#"><svg class="icon-twitter"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-twitter"></use></svg></a></li><li class="mail"><a href="#"><svg class="icon-envelop"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-envelop"></use></svg></a></li></ul></div> <div class="article-intro" id="m30-29-31"><div id="m35-34-36"><ul><li><a href="https://www.20minutos.es/gonzoo/noticia/4911858/0/la-tierna-reaccion-de-un-bebe-de-7-meses-con-problemas-auditivos-que-escucha-a-sus-padres-por-primera-vez/" target="_blank">La tierna reacción de un bebé con problemas auditivos que escucha a sus padres por primera vez</a></li></ul></div></div></section>
+<div class="container-grid-box">
+<section class="container-grid-cell content">
+<article class="article-body">
+<div class="multimedia">
+<div id="m40-39-41">
+<div class="image-container">
+<figure class="image">
+<div style="display: block;">
+<img alt="&lt;p&gt;Una madre junto a su bebé.&lt;/p&gt;" class="noLazyImage" height="370" src="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/03/05/858748.jpg" width="656"/>
+<figcaption id="m59-58-60">Una madre junto a su bebé.</figcaption><span class="author" id="m64-63-65">GTRES</span></div>
+<div style="display: none;">
+<div style="display: none;">
+</div>
+</div>
+</figure>
+</div>
+</div></div>
+<div class="article-text">
+<p class="paragraph" id="m92-91-93">Es algo que nos sale casi de manera espontánea: vemos a un <a href="https://www.20minutos.es/minuteca/bebes/" title="Bebés">bebé</a> y le hablamos con una voz infantilizada, a veces incluso cantando. Ahora, la ciencia ha descubierto que <strong>es bueno para ellos.</strong></p><p class="paragraph" id="m97-96-98">Investigadores de la Universidad de Florida han descubierto que los bebés de entre seis y ocho meses reaccionaban al sonido de la 'charla infantil' con un 'movimiento visible de labios y lengua', una señal potencial de que<strong> estaban tratando de prepararse para el habla.</strong></p><p class="paragraph" id="m102-101-103">Tal y como recoge el <em><a href="https://www.dailymail.co.uk/sciencetech/article-10297051/Baby-talk-help-infants-make-words-study-claims.html" target="_blank">Daily Mail</a></em>, <a href="https://pubs.asha.org/doi/10.1044/2021_JSLHR-21-00412" target="_blank">la investigación</a> sostiene que cuando los padres se hacen pasar por un bebé cuando hablan a su hijo, es posible que los estén ayudando<strong> a aprender a producir el habla antes</strong>.</p><p class="paragraph" id="m107-106-108">La voz infantilizada utiliza palabras adecuadas, pero pronunciadas en un patrón de entonación cantarina exagerada y prolongada,<strong> generalmente en un tono más alto,</strong> dice el estudio, publicado en el <em><a href="https://pubs.asha.org/doi/10.1044/2021_JSLHR-21-00412" target="_blank">Journal of Speech, Language and Hearing Research</a></em>.</p><p class="paragraph" id="m112-111-113">Ya se creía que la forma en que instintivamente les hablamos a los bebés les ayuda a entender lo que les decimos. Ahora, la nueva investigación sugiere que esta 'charla infantil' también ayuda a los bebés a <strong>aprender a producir su propio habla.</strong> Este era un beneficio previamente desconocido, afirman los autores.</p><p class="paragraph" id="m117-116-118">"Parece estimular la producción motora del habla, no solo la percepción del habla", dijo el autor del estudio, Matthew Masapollo, de la Universidad de Florida. <strong>"No es solo gu-gu-ga-ga", </strong>añade.</p><p class="paragraph" id="m122-121-123">Al imitar el sonido de un tracto vocal más pequeño, piensan los investigadores, estamos <strong>'dando pistas a los bebés' </strong>sobre cómo deberían sonar las palabras que salen de sus propias bocas.</p><p class="paragraph" id="m127-126-128">Aunque hablar como un bebé puede parecer simple, <strong>está logrando mucho,</strong> según la coautora Linda Polka, de la Universidad McGill en Canadá.</p><p class="paragraph" id="m132-131-133">"Estamos tratando de interactuar con el bebé para mostrarle algo sobre la producción del habla", dijo. "Los estamos preparando para que<strong> procesen su propia voz",</strong> añade.</p><h2 id="m137-136-138">Así fue el estudio</h2><p class="paragraph" id="m142-141-143">En el estudio, los investigadores cambiaron la frecuencia de los sonidos para imitar el tracto vocal de un bebé o un adulto, y luego probaron <strong>cómo reaccionaban los bebés.</strong></p><p class="paragraph" id="m147-146-148">Reclutaron a poco más de <strong>60 bebés</strong>, que se sentaron en el regazo de sus padres o cuidadores mientras tocaban los dos sonidos vocales computarizados diferentes.</p><p class="paragraph" id="m152-151-153">Los investigadores querían evaluar las preferencias de los bebés por los sonidos vocales de los adultos o <strong>los sonidos vocales de los bebés</strong>, como explica Polka.</p><p class="paragraph" id="m157-156-158">"Le presentamos al bebé dos tipos diferentes de sonidos (el bebé puede controlar cuándo se reproduce el sonido al observar un patrón visual)", explicó Polka. "Medimos <strong>cuánto tiempo escuchaban cada sonido</strong> para ver si eligen escuchar más un sonido en comparación con el otro", dice la autora.</p><p class="paragraph" id="m162-161-163">Descubrieron que los niños de seis a ocho meses<strong> "mostraban una preferencia sólida y distinta"</strong> por el habla con resonancias de un tracto vocal similar en tamaño y longitud al suyo.</p><p class="paragraph" id="m167-166-168">Un tracto vocal pequeño, como el que tienen los bebés, conduce a sonidos más agudos, mientras que el tracto vocal grande de un adulto<strong> crea un tono más bajo. </strong></p><h2 id="m172-171-173">La edad a la que se empieza a hablar</h2><p class="paragraph" id="m177-176-178">Curiosamente, investigaciones anteriores han demostrado que los niños de cuatro a seis meses no tenían esa preferencia. Por eso, los investigadores piensan que entre los seis y los ocho meses es la edad en la que los bebés se dan cuenta de que <strong>pueden controlar sus voces </strong>y hacer palabras a partir de balbuceos.</p><p class="paragraph" id="m182-181-183">En general, los experimentos mostraron que los bebés reaccionan más al sonido de las voces infantilizadas (de tono más alto, como si provinieran del tracto vocal de un bebé) con signos sutiles de que están <strong>tratando de hablar,</strong> en comparación con cuando escuchan a un adulto.</p><p class="paragraph" id="m187-186-188">Por tanto, el mensaje para los padres es que hablar más como un bebé puede ser una forma eficaz de provocar el habla de sus hijos. "Existe alguna evidencia de que cuando las <strong>madres hablan con su bebé</strong> (en comparación con cuando hablan con otro adulto), levantan la laringe y abren los labios, lo que acorta la longitud del tracto vocal", dijo Masapollo.</p><p class="paragraph" id="m192-191-193">Si bien los cuidadores ciertamente no pueden acortar su tracto vocal lo suficiente para que coincida con la longitud del tracto vocal de su bebé, esta modificación en el habla puede hacer que los cuidadores suenen más como un bebé, lo que a su vez, <strong>puede ayudar a atraer la atención del pequeño.</strong></p><p class="paragraph" id="m197-196-198">"Desde esta perspectiva, el habla infantilizada preparará a los bebés para <strong>procesar su propia voz </strong>y los estimulará para que sean más activos vocalmente", añade.</p><p class="paragraph" id="m202-201-203">El hecho de que los bebés reaccionen a los sonidos vocales infantiles con movimientos visibles de<strong> labios y lengua </strong>es algo que el equipo está examinando más directamente en experimentos en curso, dijo Masapollo.</p></div>
+</article>
+<div class="trustproject_logo">
+<div class="trustproject_container">
+<figure class="trustproject">
+<figcaption class="trustproject_title">Conforme a los criterios de</figcaption>
+<a class="trustproject_img" href="https://thetrustproject.org/" rel="nofollow" target="_blank"><img class="ui-lazy" data-src="https://www.20minutos.es/static/images/Trust-Logo-Horizontal.svg" height="25" width="146"/></a>
+</figure>
+<div class="trustproject_link"><a href="https://www.20minutos.es/estaticos/buenas-practicas/">Más información</a></div>
+</div>
+</div>
+<div id="content-article-bottom-destination"></div>
+</section>
+<aside class="container-grid-cell article-sidebar">
+<section>
+<div class="wrapper-sidebar">
+<div>
+<div id="m20-18-21"><div class="first-sidebar">
+<div class="select1">
+<div class="module module-blogs 1" id="m25-24-26">
+<div><a class="module-title" href="https://www.20minutos.es/blogs_opinion/" target="_blank">Blogs de 20minutos</a>
+<article class="media">
+<figure>
+<a class="photo _97x73" href="https://blogs.20minutos.es/cronicaverde" target="_blank"><img alt="97x73" height="70" src="https://blogs.20minutos.es/cronicaverde/blog_avatar/" width="70"/></a>
+</figure>
+<div class="media-content">
+<header>
+<h3><a href="https://blogs.20minutos.es/cronicaverde" target="_blank">La crónica verde</a></h3>
+<span><a href="https://blogs.20minutos.es/cronicaverde/2021/12/26/greenpeace-propone-prohibir-la-publicidad-manipuladora-de-la-carne/" target="_blank">Greenpeace propone prohibir la publicidad “manipuladora” de la carne</a></span>
+</header>
+</div>
+</article>
+<article class="media">
+<figure>
+<a class="photo _97x73" href="https://blogs.20minutos.es/ciencias-mixtas" target="_blank"><img alt="97x73" height="70" src="https://blogs.20minutos.es/ciencias-mixtas/blog_avatar/" width="70"/></a>
+</figure>
+<div class="media-content">
+<header>
+<h3><a href="https://blogs.20minutos.es/ciencias-mixtas" target="_blank">Ciencias mixtas</a></h3>
+<span><a href="https://blogs.20minutos.es/ciencias-mixtas/2021/12/26/mascarillas-en-la-calle-inutil-aberrante-contradictorio-1/" target="_blank">Mascarillas en la calle: inútil, aberrante, contradictorio (1)</a></span>
+</header>
+</div>
+</article>
+<article class="media">
+<figure>
+<a class="photo _97x73" href="https://blogs.20minutos.es/quefuede" target="_blank"><img alt="97x73" height="70" src="https://blogs.20minutos.es/quefuede/blog_avatar/" width="70"/></a>
+</figure>
+<div class="media-content">
+<header>
+<h3><a href="https://blogs.20minutos.es/quefuede" target="_blank">¿Qué fue de?</a></h3>
+<span><a href="https://blogs.20minutos.es/quefuede/2021/12/26/quien-fue-nat-lofthouse-el-mejor-goleador-de-inglaterra/" target="_blank">Quién fue… Nat Lofthouse: el mejor goleador de Inglaterra</a></span>
+</header>
+</div>
+</article>
+<article class="media">
+<figure>
+<a class="photo _97x73" href="https://blogs.20minutos.es/dando-la-nota" target="_blank"><img alt="97x73" height="70" src="https://blogs.20minutos.es/dando-la-nota/blog_avatar/" width="70"/></a>
+</figure>
+<div class="media-content">
+<header>
+<h3><a href="https://blogs.20minutos.es/dando-la-nota" target="_blank">Dando la nota</a></h3>
+<span><a href="https://blogs.20minutos.es/dando-la-nota/2021/12/26/siempre-hemos-cantado-mal-jingle-bells-el-villancico-mas-famoso-no-es-como-crees/" target="_blank">Siempre hemos cantado mal ‘Jingle Bells’: El villancico más famoso no es como crees</a></span>
+</header>
+</div>
+</article>
+</div></div></div>
+<div class="select2">
+</div>
+<div class="axds-lane lane-750">
+<div class="axds-lane-child">
+<div class="axds axds-Right">
+<div class="henneoHB henneoHB-Right"></div>
+</div>
+</div>
+</div>
+</div></div>
+</div></div>
+<div class="module module-related">
+<h3 class="module-title">
+                                    Más información sobre:
+                                </h3>
+<ul>
+<li class="tag">
+<h2>
+<a href="https://www.20minutos.es/minuteca/bebes/">
+                                        Bebés
+                                    </a>
+</h2>
+</li></ul>
+</div>
+<div class="category-sidebar">
+<div class="sidebar-b">
+<div id="m20-18-21"><div class="second-sidebar">
+<div class="select1">
+<div class="freehtml-module 1" id="m25-24-26">
+<div class="free-content module">
+<div class="free-content module 1" id="m30-29-31"><div class="prometeo-20m" id="gadget-004"></div></div></div>
+</div></div>
+<div class="module">
+</div>
+<div class="select2">
+</div>
+<div class="select3">
+</div>
+<div class="axds-lane lane-750">
+<div class="axds-lane-child">
+<div class="axds axds-Right">
+<div class="henneoHB henneoHB-Right"></div>
+</div>
+</div>
+</div>
+<div class="select4">
+<div class="horscope-module 4" id="m60-59-61">
+<div class="module module-horoscope">
+<h4 class="module-title">Horóscopo</h4>
+<div class="module-content">
+<ul>
+<li class="sign">
+<a class="aries" href="https://www.20minutos.es/horoscopo/solar/prediccion/aries/" title="Aries">
+<span></span>
+<p>Aries</p>
+</a>
+</li>
+<li class="sign">
+<a class="tauro" href="https://www.20minutos.es/horoscopo/solar/prediccion/tauro/" title="Tauro">
+<span></span>
+<p>Tauro</p>
+</a>
+</li>
+<li class="sign">
+<a class="geminis" href="https://www.20minutos.es/horoscopo/solar/prediccion/geminis/" title="Géminis">
+<span></span>
+<p>Géminis</p>
+</a>
+</li>
+<li class="sign">
+<a class="cancer" href="https://www.20minutos.es/horoscopo/solar/prediccion/cancer/" title="Cáncer">
+<span></span>
+<p>Cáncer</p>
+</a>
+</li>
+<li class="sign">
+<a class="leo" href="https://www.20minutos.es/horoscopo/solar/prediccion/leo/" title="Leo">
+<span></span>
+<p>Leo</p>
+</a>
+</li>
+<li class="sign">
+<a class="virgo" href="https://www.20minutos.es/horoscopo/solar/prediccion/virgo/" title="Virgo">
+<span></span>
+<p>Virgo</p>
+</a>
+</li>
+<li class="sign">
+<a class="libra" href="https://www.20minutos.es/horoscopo/solar/prediccion/libra/" title="Libra">
+<span></span>
+<p>Libra</p>
+</a>
+</li>
+<li class="sign">
+<a class="escorpio" href="https://www.20minutos.es/horoscopo/solar/prediccion/escorpio/" title="Escorpio">
+<span></span>
+<p>Escorpio</p>
+</a>
+</li>
+<li class="sign">
+<a class="sagitario" href="https://www.20minutos.es/horoscopo/solar/prediccion/sagitario/" title="Sagitario">
+<span></span>
+<p>Sagitario</p>
+</a>
+</li>
+<li class="sign">
+<a class="capricornio" href="https://www.20minutos.es/horoscopo/solar/prediccion/capricornio/" title="Capricornio">
+<span></span>
+<p>Capricornio</p>
+</a>
+</li>
+<li class="sign">
+<a class="acuario" href="https://www.20minutos.es/horoscopo/solar/prediccion/acuario/" title="Acuario">
+<span></span>
+<p>Acuario</p>
+</a>
+</li>
+<li class="sign">
+<a class="piscis" href="https://www.20minutos.es/horoscopo/solar/prediccion/piscis/" title="Piscis">
+<span></span>
+<p>Piscis</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+<div class="module cityservi" id="cityservi"></div>
+</div></div>
+</div></div>
+<div class="sidebar-c">
+<div>
+<div id="m20-18-21"><div class="third-sidebar">
+<div class="select1">
+</div>
+<div class="axds-lane lane-750">
+<div class="axds-lane-child">
+<div class="axds axds-Right">
+<div class="henneoHB henneoHB-Right"></div>
+</div>
+</div>
+</div>
+<div class="select2">
+<div class="services-module 2" id="m35-34-36">
+<div class="module module-services">
+<a class="module-title" href="#">Servicios</a>
+<ul>
+<li class="lottery">
+<a href="https://www.20minutos.es/loterias/">
+<svg class="icon-lottery"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-lottery"></use></svg>
+<span>Loterías</span>
+</a>
+</li>
+<li class="mailing">
+<a href="https://www.20minutos.es/boletin/">
+<svg class="icon-mail-bulk"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-mail-bulk"></use></svg>
+<span>Boletin</span>
+</a>
+</li>
+<li class="newsletter">
+<a href="https://www.20minutos.es/estaticos/home-newsletters/">
+<svg class="icon-newsletter"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-newsletter"></use></svg>
+<span>Newsletter</span>
+</a>
+</li>
+<li class="weather">
+<a href="http://tiempoytemperatura.es/" target="_blank">
+<svg class="icon-cloud-sun-rain"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-cloud-sun-rain"></use></svg>
+<span>El tiempo</span>
+</a>
+</li>
+<li class="horoscope">
+<a href="https://www.20minutos.es/horoscopo/">
+<svg class="icon-yin-yang"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-yin-yang"></use></svg>
+<span>Horóscopo</span>
+</a>
+</li>
+<li class="aplications">
+<a href="https://microsite.20minutos.es/moviles/">
+<svg class="icon-mobile"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-mobile"></use></svg>
+<span>Aplicaciones</span>
+</a>
+</li>
+<li class="citiservi">
+<a href="https://servicios.20minutos.es/" target="_blank">
+<svg class="icon-map-marker"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-map-marker"></use></svg>
+<span>Guía local</span>
+</a>
+</li>
+<li class="discount">
+<a href="https://www.20minutos.es/codigo-descuento" target="_blank">
+<svg class="icon-money-bill"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-money-bill"></use></svg>
+<span>Códigos Desc.</span>
+</a>
+</li>
+<li class="store">
+<a href="https://www.20minutos.es/edicion_impresa" target="_blank">
+<svg class="icon-newspaper"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-newspaper"></use></svg>
+<span>Ed. Impresa</span>
+</a>
+</li>
+</ul>
+</div>
+</div></div>
+</div></div>
+</div></div>
+</section>
+</aside>
+</div>
+</main>
+</div></div>
+<div id="content-article-bottom">
+<div id="4922275_25291"></div>
+<script type="text/javascript">
+
+        const _lauchTaboola4922275_25291 = () => {
+
+            document.removeEventListener("botomMovedForTaboola", _lauchTaboola4922275_25291);
+
+            let taboolaDiv = document.getElementById('4922275_25291');
+            if (!taboolaDiv) {
+                return;
+            }
+
+            let blockElement = taboolaDiv.closest('main');
+            if (!blockElement) {
+                return;
+            }
+
+            const taboolaNamePrefix = 'taboola-below-article-thumbnail_';
+
+            let blockId = blockElement.id;
+
+            let taboolaName = taboolaNamePrefix + ((blockId === 'main-container' || blockId === '') ? '1' : blockId.split('_').pop());
+
+            taboolaDiv.id = taboolaName;
+
+            window._taboola = window._taboola || [];
+            _taboola.push({mode: 'thumbnails-a', container: taboolaName, placement: taboolaName, target_type: 'mix'});
+            _taboola.push({article: 'auto', url: document.querySelector("link[rel='canonical']").getAttribute("href")});
+        };
+
+        document.addEventListener("botomMovedForTaboola", _lauchTaboola4922275_25291);
+
+        var event = new CustomEvent("botomMovedForTaboola");
+
+        if (isMobile()){
+            document.dispatchEvent(event);
+        }
+        else{
+            document.addEventListener("is.append", _lauchTaboola4922275_25291);
+        }
+
+    </script>
+<div class="prometeo-20m" id="gadget-002" style="display:none"></div>
+<div class="prometeo-20m" id="gadget-003" style="display:none"></div>
+<span class="show-comments" id="show-comments"><svg class="icon-chevron-circle-down"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-chevron-circle-down"></use></svg>Mostrar comentarios</span>
+<div class="module module-comments module-lined" style="display: none">
+<h2>Comentarios</h2>
+<div class="coralThread" data-coral-url="https://comentarios.20minutos.es" data-story-id="prod-20minutos-4922275" data-story-url="https://www.20minutos.es/noticia/4922275/0/estudio-revela-dirigirse-bebes-voces-infantiles-ayuda-hablar-antes/" id="coral_thread">
+</div>
+</div>
+<div class="module module-coupons module-lined">
+<h3 class="section-title">
+<a href="https://www.20minutos.es/codigo-descuento" target="_blank">Códigos Descuento</a>
+</h3>
+<div class="su-content">
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/pccomponentes" target="_blank">
+                        Código descuento PcComponentes
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/pccomponentes" target="_blank">
+                        Ahorra hasta 25% y con Financiación en las Ofertas de Navidad con PcComponentes
+                    </a>
+</span>
+</div>
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/tuimeilibre" target="_blank">
+                        Código descuento Tuimeilibre
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/tuimeilibre" target="_blank">
+                        Atrapa hasta 58% de Descuento en las Super Ofertas Tuimeilibre
+                    </a>
+</span>
+</div>
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/samsung" target="_blank">
+                        Código promocional Samsung
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/samsung" target="_blank">
+                        5% Código Promoción Samsung en Selección de Televisores
+                    </a>
+</span>
+</div>
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/lenovo" target="_blank">
+                        Cupón descuento Lenovo
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/lenovo" target="_blank">
+                        15% Cupón Descuento Lenovo en los Versátiles Portátiles Yoga 
+                    </a>
+</span>
+</div>
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/huawei" target="_blank">
+                        Cupón Huawei
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/huawei" target="_blank">
+                        TODO con 5% Cupón Huawei para tu Compra Online
+                    </a>
+</span>
+</div>
+<div class="item">
+<h4 class="title">
+<a href="https://www.20minutos.es/codigo-descuento/hp-store" target="_blank">
+                        Cupón descuento HP
+                    </a>
+</h4>
+<span>
+<a href="https://www.20minutos.es/codigo-descuento/hp-store" target="_blank">
+                        20% Cupón HP Monitores para tu Pedido Online
+                    </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer><div class="footer-wrapper" xtcz="footer"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="menu"><li class="brand" itemprop="name"><span>Una publicación de:</span><p class="acm">20 MINUTOS EDITORA, S.L.</p><div class="logo"><a class="logo-footer" href="https://www.henneo.com/" itemprop="url" target="_blank" title="Grupo Henneo"><img alt="Grupo Henneo" height="59" src="https://www.20minutos.es/static/images/logo_henneo_gris.svg" width="85"/></a></div></li><li class="sections" itemprop="name"><h4>España</h4><div class="col-izq"><ul class="footer-ciudades1-menu"><li class="link external no-expandable first" itemprop="name"><a href="https://www.20minutos.es/madrid/" itemprop="url" target="_blank"><span>Madrid</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/cataluna/" itemprop="url" target="_blank"><span>Cataluña</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/andalucia/" itemprop="url" target="_blank"><span>Andalucía</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/comunidad-valenciana/" itemprop="url" target="_blank"><span>C.Valenciana</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/pais-vasco/" itemprop="url" target="_blank"><span>País Vasco</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/aragon/" itemprop="url" target="_blank"><span>Aragón</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/asturias/" itemprop="url" target="_blank"><span>Asturias</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/extremadura/" itemprop="url" target="_blank"><span>Extremadura</span></a></li><li class="link external no-expandable last" itemprop="name"><a href="https://www.20minutos.es/galicia/" itemprop="url" target="_blank"><span>Galicia</span></a></li></ul></div><div class="col-der"><ul class="footer-ciudades2-menu"><li class="link external no-expandable first" itemprop="name"><a href="https://www.20minutos.es/murcia/" itemprop="url" target="_blank"><span>Murcia</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/castilla-y-leon/" itemprop="url" target="_blank"><span>Castilla y León</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/castilla-la-mancha/" itemprop="url" target="_blank"><span>Castilla-La Mancha</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/canarias/" itemprop="url" target="_blank"><span>Canarias</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/baleares/" itemprop="url" target="_blank"><span>Baleares</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/cantabria/" itemprop="url" target="_blank"><span>Cantabria</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/ceuta/" itemprop="url" target="_blank"><span>Ceuta</span></a></li><li class="link external no-expandable last" itemprop="name"><a href="https://www.20minutos.es/melilla/" itemprop="url" target="_blank"><span>Melilla</span></a></li></ul></div></li><li itemprop="name"><h4>Te interesa</h4><div class="link-list"><ul class="footer-te-interesa-menu"><li class="link external no_follow no-expandable first" itemprop="name"><a href="https://www.petitchef.es/" itemprop="url" rel="nofollow" target="_blank"><span>Recetas fáciles</span></a></li><li class="link external no_follow no-expandable" itemprop="name"><a href="https://www.minijuegos.com/" itemprop="url" rel="nofollow" target="_blank"><span>Juegos</span></a></li><li class="link external no_follow no-expandable" itemprop="name"><a href="https://servicios.20minutos.es/" itemprop="url" rel="nofollow" target="_blank"><span>Guía local</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/codigo-descuento/" itemprop="url" target="_blank"><span>Códigos descuento</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/especiales/" itemprop="url"><span>Especiales</span></a></li><li class="link no-expandable last" itemprop="name"><a href="https://www.20minutos.es/estaticos/home-newsletters/" itemprop="url"><span>Newsletters</span></a></li></ul></div></li><li class="sections" itemprop="name"><h4>Corporativo</h4><div class="col-izq"><ul class="footer-corporativo1-menu"><li class="link external no_follow no-expandable first" itemprop="name"><a href="https://www.heraldo.es/" itemprop="url" rel="nofollow" target="_blank"><span>Heraldo</span></a></li><li class="link external no_follow no-expandable" itemprop="name"><a href="https://www.lainformacion.com/" itemprop="url" rel="nofollow" target="_blank"><span>La Informacion</span></a></li><li class="link no-expandable" itemprop="name"><a href="https://www.20minutos.es/cinemania/" itemprop="url"><span>Cinemanía</span></a></li><li class="link external no_follow no-expandable" itemprop="name"><a href="https://www.20minutos.com.mx/" itemprop="url" rel="nofollow" target="_blank"><span>México</span></a></li><li class="link external no_follow no-expandable" itemprop="name"><a href="https://www.20minutos.com/" itemprop="url" rel="nofollow" target="_blank"><span>EE.UU.</span></a></li><li class="link external no-expandable last" itemprop="name"><a href="https://lablogoteca.20minutos.es/premios-20blogs/" itemprop="url" target="_blank"><span>Premios 20blogs</span></a></li></ul></div><div class="col-der"><ul class="footer-corporativo2-menu"><li class="link external no_follow no-expandable first" itemprop="name"><a href="http://www.bluemedia.es/" itemprop="url" rel="nofollow" target="_blank"><span>Publicidad</span></a></li><li class="link external no_follow no-expandable last" itemprop="name"><a href="https://henneoprintingservices.com/" itemprop="url" rel="nofollow" target="_blank"><span>Henneo Printing Services</span></a></li></ul></div></li></ul></nav></div><div class="footer-search"><form action="https://www.20minutos.es/busqueda/" method="get"><input name="q" onsubmit="onSearchSubmit(this);" placeholder="¿Qué estás buscando?" type="text"/><a class="submit-action" onclick="jQuery(this).parent().submit(); return false;" title="Buscar"><svg class="icon-search"><use xlink:href="https://www.20minutos.es/static/images/henneo-icons.svg#icon-search"></use></svg></a></form></div><div class="legal-footer"><nav itemscope="" itemtype="http://www.schema.org/SiteNavigationElement"><ul class="footer-legal-menu"><li class="link external no-expandable first" itemprop="name"><a href="https://www.20minutos.es/documento/legal/" itemprop="url" target="_blank"><span>Aviso legal y condiciones de uso</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/documento/privacy/" itemprop="url" target="_blank"><span>Política de privacidad</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/documento/cookie/" itemprop="url" target="_blank"><span>Política de cookies</span></a></li><li class="link external no-expandable" itemprop="name"><a href="https://www.20minutos.es/estaticos/contacto/" itemprop="url" target="_blank"><span>Contacto</span></a></li><li class="link external no-expandable last" itemprop="name"><a href="https://www.20minutos.es/estaticos/quienes-somos/" itemprop="url" target="_blank"><span>Quiénes somos</span></a></li></ul></nav></div></footer><div class="footer-copyright"><span>© 20 Minutos Editora, S.L.</span><p>Queda prohibida toda reproducción sin permiso escrito de la empresa a los efectos del artículo 32.1, párrafo segundo, de la Ley de Propiedad Intelectual. Asimismo, a los efectos establecidos en el artículo 33.1 de Ley de Propiedad Intelectual, la empresa hace constar la correspondiente reserva de derechos, por sí y por medio de sus redactores o autores.</p></div> </body>
+</html>
