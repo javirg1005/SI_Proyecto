@@ -1,21 +1,20 @@
 import re
 import requests
 from bs4 import BeautifulSoup
-import json
+#import json
 
 def scraper(categoria):
     
-    noticiasTotales = 0
+    noticiasDiarias = 0
+    fechaAnterior = ""
 
     #Pillar todas las urls en las paginas
-    for paginas in range(2,3): #Se empieza a partir de la segunda para facilitar la busqueda por url porque la 1 no tiene numero
+    for paginas in range(2,4): #Se empieza a partir de la segunda para facilitar la busqueda por url porque la 1 no tiene numero
             
         # Conseguimos la URL
         url_base = "https://www.20minutos.es/"
         
         url = url_base + categoria + "/" + str(paginas)
-        
-        #print(url)
         
         # Hacemos la petición
         page = requests.get(url)
@@ -35,7 +34,7 @@ def scraper(categoria):
             resultado_regex = re.search(regex, str(articulo))
             if resultado_regex != None:
                 urls.append(resultado_regex.group(1))
-        print("Lista de URLS: ")
+        #print("Lista de URLS: ")
         #print(urls)
             
                 
@@ -64,16 +63,16 @@ def scraper(categoria):
             #print(soup_noticia)
 
             # Se escribe en un archivo la salida del HTML de la noticia para poder pasarlo a regex más fácilmente
-            file = open("html_noticia.txt", "w+", encoding="utf-8")
-            file.write(str(soup_noticia))
-            file.close()
+            #file = open("html_noticia.txt", "w+", encoding="utf-8")
+            #file.write(str(soup_noticia))
+            #file.close()
             
 
             ## ------------ Información por cada noticia --------------- ##
 
             # Inicialización de variables para prevenir errores
-            titulo = "Título no disponible"
-            cuerpo = "Cuerpo de la noticia"
+            #titulo = "Título no disponible"
+            #cuerpo = "Cuerpo de la noticia"
             
             regexTitulo = 'itemprop="headline">(.*)<\/h1>'
             regexAutor = '<strong>(.*?)<\/strong>'
@@ -97,21 +96,23 @@ def scraper(categoria):
             for parrafo in parrafos:
                 cuerpo = cuerpo + ' ' + parrafo
             
-            #cuerpo = cuerpo.group(1)
             cuerpo = re.sub(r'\<.*?\>', '', cuerpo)
-            #print(titulo)
-            #print(autor)
-            print(fecha)
+            
+            print(titulo)
+            
             dia = fecha[0:2]
             mes = fecha[3:5]
             anio = fecha[6:10]
             nuevaFecha = anio + "-" + mes + "-" + dia
             separador = "\n#####\n"
-            #print(entradilla)
-            #print(cuerpo)
-            #print(parrafos)
-            noticiasTotales = noticiasTotales + 1
-            fichero = "../noticias/20Minutos/" + categoria + "/" + categoria + "." + nuevaFecha + "." + str(noticiasTotales) + ".txt"
+            
+            if(nuevaFecha != fechaAnterior):
+                noticiasDiarias = 1
+            else:
+                noticiasDiarias = noticiasDiarias + 1
+        
+            fichero = "../noticias/20Minutos/" + categoria + "/" + categoria + "." + nuevaFecha + "." + str(noticiasDiarias).zfill(3) + ".txt"
+            
             file = open(fichero, "w+", encoding="utf-8")
             file.write(urls[i])
             file.write(separador)
@@ -125,9 +126,9 @@ def scraper(categoria):
             file.write(separador)
             file.write(cuerpo)
             file.close()
-            #data = {} #Escribir estructura del json bonito :D
-            #json_string.append(data)
-            #print(data)
+            
+            fechaAnterior = nuevaFecha
+            
             print("\n")
         #return json_string
 '''
