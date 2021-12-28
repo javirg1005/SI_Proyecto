@@ -1,4 +1,4 @@
 nltk
 BeautifulSoup
-pandas
-sklearn
+gensim
+PySide2extn
