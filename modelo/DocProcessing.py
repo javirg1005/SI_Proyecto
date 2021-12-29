@@ -2,6 +2,7 @@ import os
 import gensim
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
+from nltk.util import pr
 
 class DocProcessing:
 
@@ -11,8 +12,12 @@ class DocProcessing:
         f.close()
         # read files and store in dic. Then tokenize and stem each one
         self.docs = self.read_docs()
-        self.docs_names = list(self.docs.keys())
-        self.docs_text = self.docs.values()
+        self.docs_names = []
+        self.docs_text = []
+        for key in self.docs:
+            self.docs_names.append(key)
+            self.docs_text.append(self.docs[key])
+
         self.docs_stems = self.tokenize_and_stem_docs(self.docs_text)
 
         # Create dictionary of stems
@@ -79,14 +84,68 @@ class DocProcessing:
         # perform a similarity query against the corpus
         return self.sims[query_doc_tf_idf]
 
-    def query_sim_ranking(self, query, ranking):
+    def query_sim_ranking(self, query, ranking, modo ='b'):
         sim = self.query_sim(query)
-        rank = sim.argsort()[-ranking:]
+        if modo == 'b': 
+            rank = sim.argsort()[-ranking:]
+        else: # modo = 'd'
+            rank = sim.argsort()[-ranking-1:-1] # The most similar will be the document itself, so i take it out and retrieve an extra item
         rank_dic = {}
         for i in reversed(rank):
             rank_dic[self.docs_names[i]] = sim[i]
 
-        return rank_dic        
+        return rank_dic    
+    
+    def query_sim_ranking_source_filtered(self, query, ranking, source_filter,  modo ='b'):
+        sim = self.query_sim(query)
+        if modo == 'b':
+            rank = sim.argsort()
+        else: #modo = 'd'
+            rank = sim.argsort()[:-1] # the most similiar doc will itself so I take it out
+        rank_dic = {}
+        count = 0
+        for i in reversed(rank):
+            fuente = self.docs_names[i].split('\\')[-3]
+            if (fuente == source_filter and count<ranking):
+                rank_dic[self.docs_names[i]] = sim[i]
+                count+=1
+
+        return rank_dic
+
+    def query_sim_ranking_category_filtered(self, query, ranking, category_filter, modo = 'b'):
+        sim = self.query_sim(query)
+        if modo == 'b':
+            rank = sim.argsort()
+        else: #modo = 'd'
+            rank = sim.argsort()[:-1] # the most similiar doc will itself so I take it out
+        rank_dic = {}
+        count = 0
+        for i in reversed(rank):
+            categoria = self.docs_names[i].split('\\')[-2]    
+            if (categoria == category_filter and count<ranking):
+                rank_dic[self.docs_names[i]] = sim[i]
+                count+=1
+
+        return rank_dic
+
+    def query_sim_ranking_source_category_filtered(self, query, ranking, source_filter, category_filter,  modo = 'b'):
+        sim = self.query_sim(query)
+        if modo == 'b':
+            rank = sim.argsort()
+        else: #modo = 'd'
+            rank = sim.argsort()[:-1] # the most similiar doc will itself so I take it out
+        rank_dic = {}
+        count = 0
+        for i in reversed(rank):
+            fuente = self.docs_names[i].split('\\')[-3]
+            categoria = self.docs_names[i].split('\\')[-2]    
+            if (fuente == source_filter and categoria == category_filter and count<ranking):
+                rank_dic[self.docs_names[i]] = sim[i]
+                count+=1
+
+        return rank_dic
+        
+            
 
 
 '''process = DocProcessing()
