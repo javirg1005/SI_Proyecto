@@ -41,6 +41,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.btn_search.clicked.connect(self.search_callback)
         self.btn_search_1.clicked.connect(self.search_1_callback)
         self.ql_ranking_1.itemClicked.connect(self.ranking_clicked)
+        self.ql_ranking_2.itemClicked.connect(self.ranking_clicked_2)
 
     def fill_cb_news_files(self):
         # fill every news txt name
@@ -75,12 +76,34 @@ class MyWindow(QtWidgets.QMainWindow):
 
     def search_callback(self):
         #PONER LA FUNCION DE BUSCAR SEGUN LA NOTICIA (punto 2)
-        pass
+        query = self.tx_preview.toPlainText()
+        self.tx_noticia.clear()
+        if query != "":
+            source_filter = self.cb_filtro_fuente.currentText()
+            category_filter = self.cb_filtro_categ.currentText()
+            top = int(self.cb_top.currentText())
+            self.ql_ranking_2.clear()
+            self.ranking_paths.clear()
+            # Si ha escogido filtro ambos filtros
+            if source_filter != "Escoger fuente" and category_filter != "Escoger categoría":
+                sim = self.process.query_sim_ranking_source_category_filtered(query, top, source_filter, category_filter, modo='d')
+            elif source_filter != "Escoger fuente":
+                sim = self.process.query_sim_ranking_source_filtered(query, top, source_filter, modo= 'd')
+            elif category_filter != "Escoger categoría":
+                sim = self.process.query_sim_ranking_category_filtered(query, top, category_filter, modo='d')
+            else:
+                sim = self.process.query_sim_ranking(query, top, modo= 'd')
+
+            for key in list(sim.keys()):
+                    self.ranking_paths.append(str(key))
+                    text = str(key).split('\\').pop() + ' (' + str(round(sim[key]*100, 2)) + '%)'
+                    item = QtWidgets.QListWidgetItem(text)
+                    self.ql_ranking_2.addItem(item)
 
     def search_1_callback(self):
         #PONER LA FUNCION DE BUSCAR SEGUN QUERY (punto 1)
         query = self.tx_query.toPlainText()
-        print(query)
+        self.tx_noticia_1.clear()
         if query != "":
             source_filter = self.cb_filtro_fuente_1.currentText()
             top = int(self.cb_top_1.currentText())
@@ -98,9 +121,6 @@ class MyWindow(QtWidgets.QMainWindow):
                     item = QtWidgets.QListWidgetItem(text)
                     self.ql_ranking_1.addItem(item)
 
-
-            
-
     def ranking_clicked(self, item):
         item_ind = self.ql_ranking_1.row(item)
         self.tx_noticia_1.clear()
@@ -108,6 +128,14 @@ class MyWindow(QtWidgets.QMainWindow):
         with open(self.ranking_paths[item_ind], encoding="utf-8") as pearl:
                 text = pearl.read()
         self.tx_noticia_1.insertPlainText(text)
+
+    def ranking_clicked_2(self, item):
+        item_ind = self.ql_ranking_2.row(item)
+        self.tx_noticia.clear()
+        print('item clicked:',self.ranking_paths[item_ind] )
+        with open(self.ranking_paths[item_ind], encoding="utf-8") as pearl:
+                text = pearl.read()
+        self.tx_noticia.insertPlainText(text)
 
 
     # para cargar datos importa, aqui cargar los botones
