@@ -12,16 +12,16 @@ class MyWindow(QtWidgets.QMainWindow):
     #El orden importa, para cargar datos importa, aqui cargar los combobox
     def __init__(self):
         super(MyWindow,self).__init__()
-        uic.loadUi('./vista/main.ui',self)    
+        uic.loadUi('./main.ui',self)    
 
         self.fill_combobox()
         self.ranking_paths = []
         # Cargar los documentos procesados para que sea más rapido
-        '''pickle_in = open('docsprocessed.pickle', 'rb')
+        '''pickle_in = open('modelo\docsprocessed.pickle', 'rb')
         self.process = pickle.load(pickle_in)'''
         self.process = DocProcessing()
 
-        '''with open('docsprocessed.pickle', 'rb') as f:
+        '''with open('modelo/docsprocessed.pickle', 'wb') as f:
             pickle.dump(self.process, f)'''
         
 
