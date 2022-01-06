@@ -82,25 +82,69 @@ def scraper(categoria):
             regexFecha = '"article-date">[\w\W]*?>(.*?)<'
             regexEntradilla = '<div class="article-intro[\w\W]*?>[\w\W]*?>(.*)<\/div>'
             regexCuerpo = '<p class="paragraph[\w\W]*?>(.*?)<\/p>'
+            #regexTags = '<li class="tag">([\w\W]*?)<\/li>'
+            regexTags = '<li class="tag">[\w\W]*?">[\W\w]*?(\w.*)'
             
             titulo = re.search(regexTitulo, str(soup_noticia))
-            titulo = titulo.group(1)
+            if titulo == None:
+                titulo = ""
+            else:
+                titulo = titulo.group(1)
+                
             autor = re.search(regexAutor, str(soup_noticia))
-            autor = autor.group(1)
-            fecha = re.search(regexFecha, str(soup_noticia))
-            fecha = fecha.group(1)
-            entradilla = re.search(regexEntradilla, str(soup_noticia))
-            entradilla = entradilla.group(1)
-            entradilla = re.sub(r'\<.*?\>', '', entradilla)
-            parrafos = re.findall(regexCuerpo, str(soup_noticia))
+            if autor == None:
+                autor = ""
+            else:
+                autor = autor.group(1)
             
+            fecha = re.search(regexFecha, str(soup_noticia))
+            if fecha == None:
+                fecha = ""
+            else:
+                fecha = fecha.group(1)
+                
+            entradilla = re.search(regexEntradilla, str(soup_noticia))
+            if entradilla == None:
+                entradilla = ""
+            else:
+                entradilla = entradilla.group(1)
+                entradilla = re.sub(r'\<.*?\>', '', entradilla)
+            
+            parrafos = re.findall(regexCuerpo, str(soup_noticia))
+            if parrafos == None:
+                parrafos = ""
+            else:
+                cuerpo = ""
+                for parrafo in parrafos:
+                    if cuerpo == "":
+                        cuerpo = parrafo
+                    else:
+                        cuerpo = cuerpo + ' ' + parrafo
+                cuerpo = re.sub(r'\<.*?\>', '', cuerpo)
+                
+            tags = re.findall(regexTags, str(soup_noticia))
+            if tags == None:
+                tags = ""
+            else:
+                etiquetas = ""
+                for tag in tags:
+                    if etiquetas == "":
+                        etiquetas = tag
+                    else:
+                        etiquetas = etiquetas + ', ' + tag
+                etiquetas = re.sub(r'\<.*?\>', '', etiquetas)
+            '''
             cuerpo = ""
+            etiquetas = ""
             
             for parrafo in parrafos:
                 cuerpo = cuerpo + ' ' + parrafo
+            for tag in tags:
+                etiquetas = etiquetas + ', ' + tag
             
             cuerpo = re.sub(r'\<.*?\>', '', cuerpo)
-            
+            etiquetas = re.sub(r'\<.*?\>', '', etiquetas)
+            '''
             print(titulo)
             
             dia = fecha[0:2]
@@ -129,6 +173,9 @@ def scraper(categoria):
             file.write(entradilla)
             file.write(separador)
             file.write(cuerpo)
+            file.write(separador)
+            file.write(etiquetas)
+            
             file.close()
             
             fechaAnterior = nuevaFecha
