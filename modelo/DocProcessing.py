@@ -1,5 +1,6 @@
 import os
 import gensim
+import re
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 from nltk.util import pr
@@ -14,9 +15,11 @@ class DocProcessing:
         self.docs = self.read_docs()
         self.docs_names = []
         self.docs_text = []
+        self.docs_tags = []
         for key in self.docs:
             self.docs_names.append(key)
-            self.docs_text.append(self.docs[key])
+            self.docs_text.append(self.docs[key][0])
+            self.docs_tags.append(self.docs[key][1])
 
         self.docs_stems = self.tokenize_and_stem_docs(self.docs_text)
 
@@ -44,7 +47,9 @@ class DocProcessing:
                 #print("fname=", fname)
                 with open(fname, encoding="utf-8") as pearl:
                     text = pearl.read()
-                    token_dict[fname] = text
+                    tags_text = text.split('#####')
+                    tags = tags_text[len(tags_text)-1]
+                    token_dict[fname] = text, tags
 
         return token_dict
 
@@ -148,12 +153,7 @@ class DocProcessing:
             
 
 
-'''process = DocProcessing()
-print("ranking")
+process = DocProcessing()
+print("tags")
 
-query = "Saturno es el sexto planeta desde el sol"
-print(process.query_sim_ranking(query, 5))
-
-query = "Alexa puede detectar por la voz el estado emocional de los pacientes en algunos hospitales españoles"
-print(process.query_sim_ranking(query, 5))
-'''
+print(process.docs_tags_stems)
