@@ -32,6 +32,7 @@ class DocProcessing:
 
         # Create a similarity measure object
         self.sims = gensim.similarities.Similarity('modelo\\similarity_object\\', self.tf_idf[self.corpus], num_features=len(self.dictionary))
+        
 
     def read_docs(self):
         token_dict = {}
@@ -150,5 +151,40 @@ class DocProcessing:
 
         return rank_dic
         
-            
+    def recomendation_tags(self):
+        #start de recomendation
+        
+        return 0
 
+    def dice_coefficient_v2(a,b): 
+        if not len(a) or not len(b): 
+            return 0.0
+        if a == b: # quick case for true duplicates
+            return 1.0
+        if len(a) == 1 or len(b) == 1: 
+            return 0.0 # if a != b, and a or b are single chars, then they can't possibly match 
+        
+        a_bigram_list = [a[i:i+2] for i in range(len(a)-1)]
+        b_bigram_list = [b[i:i+2] for i in range(len(b)-1)]
+        
+        a_bigram_list.sort()
+        b_bigram_list.sort()
+        
+        # assignments to save function calls
+        lena = len(a_bigram_list)
+        lenb = len(b_bigram_list)
+        # initialize match counters
+        matches = i = j = 0
+        while (i < lena and j < lenb):
+            if a_bigram_list[i] == b_bigram_list[j]:
+                matches += 2
+                i += 1
+                j += 1
+            elif a_bigram_list[i] < b_bigram_list[j]:
+                i += 1
+            else:
+                j += 1
+
+        #dice coefficient --> 2nt/(na + nb)
+        score = float(matches)/float(lena + lenb) #apply the formula
+        return score
