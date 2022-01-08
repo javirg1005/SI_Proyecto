@@ -152,8 +152,3 @@ class DocProcessing:
         
             
 
-
-process = DocProcessing()
-print("tags")
-
-print(process.docs_tags_stems)

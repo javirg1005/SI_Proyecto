@@ -26,9 +26,9 @@ class MyWindow(QtWidgets.QMainWindow):
         
 
     def fill_combobox(self):
-        self.cb_fuente.addItems(["Escoger fuente", "20minutos", "elmundo", "elpais"])
-        self.cb_filtro_fuente.addItems(["Escoger fuente", "20minutos", "elmundo", "elpais"])
-        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20minutos", "elmundo", "elpais", "noticias"])
+        self.cb_fuente.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais"])
+        self.cb_filtro_fuente.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais"])
+        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais", "noticias"])
         self.cb_category.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_filtro_categ.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_new.addItem("Escoger noticia")
