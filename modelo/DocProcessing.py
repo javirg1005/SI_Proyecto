@@ -150,11 +150,6 @@ class DocProcessing:
                 count+=1
 
         return rank_dic
-        
-    def recomendation_tags(self):
-        #start de recomendation
-        
-        return 0
 
     def dice_coefficient_v2(a,b): 
         if not len(a) or not len(b): 
@@ -188,3 +183,22 @@ class DocProcessing:
         #dice coefficient --> 2nt/(na + nb)
         score = float(matches)/float(lena + lenb) #apply the formula
         return score
+
+    def recomendation_tags(self, id): #still on testing for improvement
+        #start de recomendation
+        tags = self.docs_tags
+        reco = [] #Creamos la lista de resultados
+        n = 0 #Contador favorito
+        while n != len(tags):
+            #print("Tags a comparar : ",tags[id])
+            #print("Tag cambia      : ",tags[n])
+            #print(n)
+            var = self.dice_coefficient_v2(tags[id],tags[n])
+            #print(n,": ",var)
+            if n == id:
+                var = -1 #so it does not recommend itself
+            reco.append(var)
+            n=n+1
+        return reco 
+
+    

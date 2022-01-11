@@ -1,3 +1,4 @@
+from modelo.DocProcessing import DocProcessing
 
 def dice_coefficient(a, b):
     #dice coefficient 2nt/(na + nb)
@@ -59,3 +60,34 @@ var2 = dice_coefficient_v2("AA","AAAA")
 
 print(var1) # 1.0
 print(var2) # 0.5 more accurate
+
+
+'''####################################################'''
+def recomendation_tags(id):
+        #start de recomendation
+        tags = process.docs_tags #Nos descargamos los tags
+        reco = [] #Creamos la lista de resultados
+        n = 0 #Contador favorito
+        while n != len(tags):
+            #print("Tags a comparar : ",tags[id])
+            #print("Tag cambia      : ",tags[n])
+            #print(n)
+            var = dice_coefficient_v2(tags[id],tags[n])
+            #print(n,": ",var)
+            if n == id:
+                var = -1 #so it does not recommend itself
+            reco.append(var)
+            n=n+1
+        return reco 
+
+
+
+
+import time
+inicio = time.time()
+process = DocProcessing()
+reco = recomendation_tags(2)
+print(reco)
+
+fin = time.time()
+print(fin-inicio, "secs")
