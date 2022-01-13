@@ -32,6 +32,8 @@ class DocProcessing:
 
         # Create a similarity measure object
         self.sims = gensim.similarities.Similarity('modelo\\similarity_object\\', self.tf_idf[self.corpus], num_features=len(self.dictionary))
+
+        
         
 
     def read_docs(self):
@@ -100,7 +102,15 @@ class DocProcessing:
         for i in reversed(rank):
             rank_dic[self.docs_names[i]] = sim[i]
 
-        return rank_dic    
+        return rank_dic
+        
+    def query_reco_ranking(self, query, ranking, reco):
+        rank = reco.argsort()[-ranking:]
+        rank_dic = {}
+        for i in reversed(rank):
+            rank_dic[self.docs_names[i]] = reco[i]
+
+        return rank_dic   
     
     def query_sim_ranking_source_filtered(self, query, ranking, source_filter,  modo ='b'):
         sim = self.query_sim(query)
@@ -184,21 +194,24 @@ class DocProcessing:
         score = float(matches)/float(lena + lenb) #apply the formula
         return score
 
-    def recomendation_tags(self, id): #still on testing for improvement
-        #start de recomendation
-        tags = self.docs_tags
-        reco = [] #Creamos la lista de resultados
-        n = 0 #Contador favorito
-        while n != len(tags):
-            #print("Tags a comparar : ",tags[id])
-            #print("Tag cambia      : ",tags[n])
-            #print(n)
-            var = self.dice_coefficient_v2(tags[id],tags[n])
-            #print(n,": ",var)
-            if n == id:
-                var = -1 #so it does not recommend itself
-            reco.append(var)
-            n=n+1
-        return reco 
+    def get_pos(self, com):
+        print(com)
+        con = 0
+        name = ""
+        result = -1
+        bool = False
+        while bool==False:
+            
+            name = self.docs_names[con].split('\\')[-1]
 
-    
+            print("\n")
+            print(com)
+            print(name)
+            print(con)
+            if str(name) == str(com):
+                result = con
+                bool = True
+            else:
+                result = -1
+            con=con+1
+        return result 

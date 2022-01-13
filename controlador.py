@@ -39,6 +39,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.cb_category.currentTextChanged.connect(self.fill_cb_news_files)
         self.cb_new.currentTextChanged.connect(self.on_cb_new_changed)
         self.btn_search.clicked.connect(self.search_callback)
+        self.btn_recommend.clicked.connect(self.recomend_callback)
         self.btn_search_1.clicked.connect(self.search_1_callback)
         self.ql_ranking_1.itemClicked.connect(self.ranking_clicked)
         self.ql_ranking_2.itemClicked.connect(self.ranking_clicked_2)
@@ -100,6 +101,34 @@ class MyWindow(QtWidgets.QMainWindow):
                     item = QtWidgets.QListWidgetItem(text)
                     self.ql_ranking_2.addItem(item)
 
+    def recomend_callback(self):
+        query = self.tx_preview.toPlainText()
+        self.tx_noticia.clear()
+        if query != "":
+            source_filter = self.cb_filtro_fuente.currentText()
+            category_filter = self.cb_filtro_categ.currentText()
+            top = int(self.cb_top.currentText())
+            self.ql_ranking_2.clear()
+            self.ranking_paths.clear()
+            # Si ha escogido filtro ambos filtros
+            if source_filter != "Escoger fuente" and category_filter != "Escoger categoría":
+                sim = self.process.query_sim_ranking_source_category_filtered(query, top, source_filter, category_filter, modo='d')
+            elif source_filter != "Escoger fuente":
+                sim = self.process.query_sim_ranking_source_filtered(query, top, source_filter, modo= 'd')
+            elif category_filter != "Escoger categoría":
+                sim = self.process.query_sim_ranking_category_filtered(query, top, category_filter, modo='d')
+            else:
+                new = self.cb_new.currentText()
+                id = self.process.get_pos(new)
+                reco = self.recomendation_tags(id)
+                reco = self.process.query_reco_ranking(query, top, reco)
+            for key in list(reco.keys()):
+                self.ranking_paths.append(str(key))
+                text = str(key).split('\\').pop() + ' (' + str(round(sim[key]*100, 2)) + '%)'
+                item = QtWidgets.QListWidgetItem(text)
+                self.ql_ranking_2.addItem(item)
+
+
     def search_1_callback(self):
         #PONER LA FUNCION DE BUSCAR SEGUN QUERY (punto 1)
         query = self.tx_query.toPlainText()
@@ -136,6 +165,55 @@ class MyWindow(QtWidgets.QMainWindow):
         with open(self.ranking_paths[item_ind], encoding="utf-8") as pearl:
                 text = pearl.read()
         self.tx_noticia.insertPlainText(text)
+    
+    def recomendation_tags(self, id):
+        #start de recomendation
+        tags = self.process.docs_tags #Nos descargamos los tags
+        reco = [] #Creamos la lista de resultados
+        n = 0 #Contador favorito
+        var = 0
+        while n != len(tags):
+            var1 = tags[id]
+            var2 = tags[n]
+            var = self.dice_coefficient_v2(var1,var2)
+            if n == id:
+                var = -1 #so it does not recommend itself
+            reco.append(var)
+            n=n+1
+        return reco 
+
+    def dice_coefficient_v2(self,a,b): 
+        if not len(a) or not len(b): 
+            return 0.0
+        if a == b: # quick case for true duplicates
+            return 1.0
+        if len(a) == 1 or len(b) == 1: 
+            return 0.0 # if a != b, and a or b are single chars, then they can't possibly match 
+        
+        a_bigram_list = [a[i:i+2] for i in range(len(a)-1)]
+        b_bigram_list = [b[i:i+2] for i in range(len(b)-1)]
+        
+        a_bigram_list.sort()
+        b_bigram_list.sort()
+        
+        # assignments to save function calls
+        lena = len(a_bigram_list)
+        lenb = len(b_bigram_list)
+        # initialize match counters
+        matches = i = j = 0
+        while (i < lena and j < lenb):
+            if a_bigram_list[i] == b_bigram_list[j]:
+                matches += 2
+                i += 1
+                j += 1
+            elif a_bigram_list[i] < b_bigram_list[j]:
+                i += 1
+            else:
+                j += 1
+
+        #dice coefficient --> 2nt/(na + nb)
+        score = float(matches)/float(lena + lenb) #apply the formula
+        return score
 
 
     # para cargar datos importa, aqui cargar los botones
