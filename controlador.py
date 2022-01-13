@@ -124,7 +124,7 @@ class MyWindow(QtWidgets.QMainWindow):
                 reco = self.process.query_reco_ranking(query, top, reco)
             for key in list(reco.keys()):
                 self.ranking_paths.append(str(key))
-                text = str(key).split('\\').pop() + ' (' + str(round(sim[key]*100, 2)) + '%)'
+                text = str(key).split('\\').pop() + ' (' + str(round(reco[key]*100, 2)) + '%)'
                 item = QtWidgets.QListWidgetItem(text)
                 self.ql_ranking_2.addItem(item)
 
