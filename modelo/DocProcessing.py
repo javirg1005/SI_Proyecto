@@ -4,6 +4,7 @@ import re
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 from nltk.util import pr
+import numpy as np
 
 class DocProcessing:
 
@@ -105,6 +106,7 @@ class DocProcessing:
         return rank_dic
         
     def query_reco_ranking(self, query, ranking, reco):
+        reco = np.array(reco)
         rank = reco.argsort()[-ranking:]
         rank_dic = {}
         for i in reversed(rank):
