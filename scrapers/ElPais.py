@@ -14,7 +14,7 @@ def scraper(categoria):
     for paginas in range(1,2): #Se empieza a partir de la segunda para facilitar la busqueda por url porque la 1 no tiene numero
             
         # Conseguimos la URL
-        url_base = "https://www.elpais.com/"
+        url_base = "https://www.elpais.com"
         
         url = url_base + categoria #+ "/" + str(paginas)
         
@@ -42,14 +42,15 @@ def scraper(categoria):
         #print(urls)
          
         
-        if(categoria == 'noticias/sanidad'):
+        if(categoria == '/noticias/sanidad'):
             categoria = 'salud'
-        '''
-        elif(categoria == 'ciencia-y-salud/salud.html'):
-            categoria = 'salud' 
-        elif(categoria == 'tecnologia.html'):
+        elif(categoria == '/tecnologia'):
             categoria = 'tecnologia'
-        '''
+        elif(categoria == '/ciencia'):
+            categoria = 'ciencia' 
+        
+        
+        
         
         # Una vez tenemos la URL de la notica en concreto, la scrapeamos
         for i in range(0, len(urls)):
@@ -70,18 +71,20 @@ def scraper(categoria):
             #print("impreso")
             #print(soup_noticia)
             
-            regexTitulo = 'a_t">(.*?)<'
-            regexAutor = 'a_md_a">(.*?)<\/div'
+            regexTitulo = '<h1 class="a_t[\w\W]*?">(.*?)<'
+            regexAutor = '<div class="a_md_a">(.*?)<\/div'
             regexFecha = 'data-date="(.*?)T'
-            regexEntradilla = 'a_st">(.*?)<'
+            regexEntradilla = 'h2 class="a_st[\w\W]*?">(.*?)<'
             regexCuerpo = '<p class="">(.*?)<\/p>'
             regexTags = 'arch" rel="noopener noreferrer">(.*?)<\/a'
         
             
             titulo = re.search(regexTitulo, str(soup_noticia))
-            #if titulo != None:
-            titulo = titulo.group(1)
-            titulo = re.sub(r'\<.*?\>', '', titulo)
+            if titulo != None:
+                titulo = titulo.group(1)
+                titulo = re.sub(r'\<.*?\>', '', titulo)
+            else:
+                titulo = ""
             print(titulo)
             
             autor = re.search(regexAutor, str(soup_noticia))
@@ -99,7 +102,7 @@ def scraper(categoria):
                 fecha = fecha.group(1)
             else:
                 fecha = ""
-            #print (fecha)
+            print (fecha)
             
             entradilla = re.search(regexEntradilla, str(soup_noticia))
             if entradilla != None:
@@ -184,7 +187,7 @@ def scraper(categoria):
             
 
 def scrapeo_init():
-    categorias = ['noticias/sanidad'] #Categorias a revisar, mirar que esten asi en el periodico (url)
+    categorias = ['/noticias/sanidad','/tecnologia','/ciencia'] #Categorias a revisar, mirar que esten asi en el periodico (url)
     for categoria in categorias:
         
         scraper(categoria) #Tiene que ser en minuscula
