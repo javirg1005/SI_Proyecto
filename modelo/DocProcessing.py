@@ -1,10 +1,11 @@
 import os
 import gensim
-import re
+#import re
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 from nltk.util import pr
 import numpy as np
+#from nltk.util import pr
 
 class DocProcessing:
 
