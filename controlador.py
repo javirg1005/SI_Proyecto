@@ -17,9 +17,11 @@ class MyWindow(QtWidgets.QMainWindow):
         self.fill_combobox()
         self.ranking_paths = []
         # Cargar los documentos procesados para que sea más rapido
-        pickle_in = open('modelo\docsprocessed.pickle', 'rb')
-        self.process = pickle.load(pickle_in)
-        '''self.process = DocProcessing()'''
+        '''pickle_in = open('modelo\docsprocessed.pickle', 'rb')
+        self.process = pickle.load(pickle_in)'''
+
+        #Si da el error comentar 20,21 y descomentar 24
+        self.process = DocProcessing()
 
         '''with open('modelo/docsprocessed.pickle', 'wb') as f:
             pickle.dump(self.process, f)'''
