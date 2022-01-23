@@ -3,7 +3,7 @@ from PyQt5 import uic
 from PyQt5 import QtWidgets
 #import re
 import os
-#import pickle
+import pickle
 
 from modelo.DocProcessing import DocProcessing
 
