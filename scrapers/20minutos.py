@@ -220,19 +220,15 @@ def scraper(categoria):
 # Se crea el JSON
 
 def scrapeo_init():
-    categorias = ['ciencia', 'salud/medicina', 'tecnologia/emprendimiento'] #Categorias a revisar, mirar que esten asi en el periodico (url)
-    #json_final = []
+    categorias = ['ciencia', 
+                  'salud/medicina', 
+                  'tecnologia/emprendimiento'] 
     for categoria in categorias:
-        #print(categoria)
-        scraper(categoria) #Tiene que ser en minuscula
-        #json_final.append(json)
-    #return json_final
-    return 0
+        scraper(categoria)
 
-#json_final = scrapeo_init() #Tiene que ser en minuscula
-json_final = scrapeo_init()
+scrapeo_init()
 
-print(json_final)
+
 '''
 #Para guardarlo bonito :D
 with open('textos/20mins.json', 'w', encoding='utf-8') as f:

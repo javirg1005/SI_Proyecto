@@ -115,20 +115,23 @@ class MyWindow(QtWidgets.QMainWindow):
             # Si ha escogido filtro ambos filtros
             if source_filter != "Escoger fuente" and category_filter != "Escoger categoría":
                 sim = self.process.query_sim_ranking_source_category_filtered(query, top, source_filter, category_filter, modo='d')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             elif source_filter != "Escoger fuente":
                 sim = self.process.query_sim_ranking_source_filtered(query, top, source_filter, modo= 'd')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             elif category_filter != "Escoger categoría":
                 sim = self.process.query_sim_ranking_category_filtered(query, top, category_filter, modo='d')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             else:
                 new = self.cb_new.currentText()
                 id = self.process.get_pos(new)
                 reco = self.recomendation_tags(id)
                 reco = self.process.query_reco_ranking(query, top, reco)
-            for key in list(reco.keys()):
-                self.ranking_paths.append(str(key))
-                text = str(key).split('\\').pop() + ' (' + str(round(reco[key]*100, 2)) + '%)'
-                item = QtWidgets.QListWidgetItem(text)
-                self.ql_ranking_2.addItem(item)
+                for key in list(reco.keys()):
+                    self.ranking_paths.append(str(key))
+                    text = str(key).split('\\').pop() + ' (' + str(round(reco[key]*100, 2)) + '%)'
+                    item = QtWidgets.QListWidgetItem(text)
+                    self.ql_ranking_2.addItem(item)
 
 
     def search_1_callback(self):
