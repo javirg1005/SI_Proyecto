@@ -13,27 +13,27 @@ def scraper(categoria):
             
         # Conseguimos la URL
         url_base = "https://www.20minutos.es/"
-        
         url = url_base + categoria + "/" + str(paginas)
-        
         # Hacemos la petición
         page = requests.get(url)
-        #print(page.status_code)    #print del codigo de estado al pillar la url (si falla o no y porque)
-
-        # Imprimimos el contenido de la página
+        
+        # Extraemos el contenido de la página
         soup = BeautifulSoup(page.content, 'html.parser')
-        #print(soup) #print del contenido
-
         articulos = soup.findAll("article")
-        urls = []
+        
+        
     
         print("URL Pagina: " + url)
+        
         # Aplicamos regex
-        for articulo in articulos: #REGEX PARA SACAR LAS URLS DE NOTICAS DE LA PAGINA DE PAGINAS
-            regex = '<header><h1><a href="(.*?)">' #En proceso
+        
+        urls = []
+        for articulo in articulos: 
+            regex = '<header><h1><a href="(.*?)">' 
             resultado_regex = re.search(regex, str(articulo))
             if resultado_regex != None:
                 urls.append(resultado_regex.group(1))
+        
         #print("Lista de URLS: ")
         #print(urls)
             

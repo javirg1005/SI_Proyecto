@@ -3,7 +3,7 @@ from PyQt5 import uic
 from PyQt5 import QtWidgets
 #import re
 import os
-import pickle
+#import pickle
 
 from modelo.DocProcessing import DocProcessing
 
@@ -180,13 +180,13 @@ class MyWindow(QtWidgets.QMainWindow):
         while n != len(tags):
             var1 = tags[id]
             var2 = tags[n]
-            var = self.dice_coefficient_v2(var1,var2)
+            var = self.process.dice_coefficient_v2(var1,var2)
             if n == id:
                 var = -1 #so it does not recommend itself
             reco.append(var)
             n=n+1
         return reco 
-
+    '''
     def dice_coefficient_v2(self,a,b): 
         if not len(a) or not len(b): 
             return 0.0
@@ -220,7 +220,7 @@ class MyWindow(QtWidgets.QMainWindow):
         score = float(matches)/float(lena + lenb) #apply the formula
         return score
 
-
+    '''
     # para cargar datos importa, aqui cargar los botones
 
 #Método main de la aplicación
