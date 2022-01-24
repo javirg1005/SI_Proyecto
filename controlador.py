@@ -1,9 +1,9 @@
 import sys
 from PyQt5 import uic
 from PyQt5 import QtWidgets
-import re
+#import re
 import os
-import pickle
+#import pickle
 
 from modelo.DocProcessing import DocProcessing
 
@@ -17,18 +17,20 @@ class MyWindow(QtWidgets.QMainWindow):
         self.fill_combobox()
         self.ranking_paths = []
         # Cargar los documentos procesados para que sea más rapido
-        pickle_in = open('modelo\docsprocessed.pickle', 'rb')
-        self.process = pickle.load(pickle_in)
-        '''self.process = DocProcessing()'''
+        '''pickle_in = open('modelo\docsprocessed.pickle', 'rb')
+        self.process = pickle.load(pickle_in)'''
+
+        #Si da el error comentar 20,21 y descomentar 24
+        self.process = DocProcessing()
 
         '''with open('modelo/docsprocessed.pickle', 'wb') as f:
             pickle.dump(self.process, f)'''
         
 
     def fill_combobox(self):
-        self.cb_fuente.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais"])
-        self.cb_filtro_fuente.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais"])
-        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20minutos", "ElMundo", "elpais", "noticias"])
+        self.cb_fuente.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
+        self.cb_filtro_fuente.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
+        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
         self.cb_category.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_filtro_categ.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_new.addItem("Escoger noticia")
@@ -113,20 +115,23 @@ class MyWindow(QtWidgets.QMainWindow):
             # Si ha escogido filtro ambos filtros
             if source_filter != "Escoger fuente" and category_filter != "Escoger categoría":
                 sim = self.process.query_sim_ranking_source_category_filtered(query, top, source_filter, category_filter, modo='d')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             elif source_filter != "Escoger fuente":
                 sim = self.process.query_sim_ranking_source_filtered(query, top, source_filter, modo= 'd')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             elif category_filter != "Escoger categoría":
                 sim = self.process.query_sim_ranking_category_filtered(query, top, category_filter, modo='d')
+                self.tx_noticia.insertPlainText("La funcionalidad de recomendaciones no soporta filtros")
             else:
                 new = self.cb_new.currentText()
                 id = self.process.get_pos(new)
                 reco = self.recomendation_tags(id)
                 reco = self.process.query_reco_ranking(query, top, reco)
-            for key in list(reco.keys()):
-                self.ranking_paths.append(str(key))
-                text = str(key).split('\\').pop() + ' (' + str(round(reco[key]*100, 2)) + '%)'
-                item = QtWidgets.QListWidgetItem(text)
-                self.ql_ranking_2.addItem(item)
+                for key in list(reco.keys()):
+                    self.ranking_paths.append(str(key))
+                    text = str(key).split('\\').pop() + ' (' + str(round(reco[key]*100, 2)) + '%)'
+                    item = QtWidgets.QListWidgetItem(text)
+                    self.ql_ranking_2.addItem(item)
 
 
     def search_1_callback(self):
@@ -175,13 +180,13 @@ class MyWindow(QtWidgets.QMainWindow):
         while n != len(tags):
             var1 = tags[id]
             var2 = tags[n]
-            var = self.dice_coefficient_v2(var1,var2)
+            var = self.process.dice_coefficient_v2(var1,var2)
             if n == id:
                 var = -1 #so it does not recommend itself
             reco.append(var)
             n=n+1
         return reco 
-
+    '''
     def dice_coefficient_v2(self,a,b): 
         if not len(a) or not len(b): 
             return 0.0
@@ -215,7 +220,7 @@ class MyWindow(QtWidgets.QMainWindow):
         score = float(matches)/float(lena + lenb) #apply the formula
         return score
 
-
+    '''
     # para cargar datos importa, aqui cargar los botones
 
 #Método main de la aplicación

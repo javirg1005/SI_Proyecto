@@ -2,3 +2,4 @@ nltk
 BeautifulSoup
 gensim
 pickle
+pyqt

@@ -1,8 +1,10 @@
 import os
 import gensim
+#import re
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 import numpy as np
+#from nltk.util import pr
 
 class DocProcessing:
 
@@ -160,7 +162,7 @@ class DocProcessing:
 
         return rank_dic
 
-    def dice_coefficient_v2(a,b): 
+    def dice_coefficient_v2(self,a,b): 
         if not len(a) or not len(b): 
             return 0.0
         if a == b: # quick case for true duplicates
