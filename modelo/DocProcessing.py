@@ -1,9 +1,7 @@
 import os
 import gensim
-import re
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
-from nltk.util import pr
 import numpy as np
 
 class DocProcessing:
@@ -34,7 +32,6 @@ class DocProcessing:
         # Create a similarity measure object
         self.sims = gensim.similarities.Similarity('modelo\\similarity_object\\', self.tf_idf[self.corpus], num_features=len(self.dictionary))
 
-        
         
 
     def read_docs(self):
@@ -199,21 +196,14 @@ class DocProcessing:
     def get_pos(self, com):
         print(com)
         con = 0
-        name = ""
         result = -1
         bool = False
-        while bool==False:
-            
+        while bool==False:        
             name = self.docs_names[con].split('\\')[-1]
-
-            print("\n")
-            print(com)
-            print(name)
-            print(con)
             if str(name) == str(com):
                 result = con
                 bool = True
-            else:
-                result = -1
             con=con+1
+        
         return result 
+
