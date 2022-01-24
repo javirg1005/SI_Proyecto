@@ -95,12 +95,16 @@ class DocProcessing:
     def query_sim_ranking(self, query, ranking, modo ='b'):
         sim = self.query_sim(query)
         if modo == 'b': 
-            rank = sim.argsort()[-ranking:]
+            rank = sim.argsort()
         else: # modo = 'd'
-            rank = sim.argsort()[-ranking-1:-1] # The most similar will be the document itself, so i take it out and retrieve an extra item
+            rank = sim.argsort()[:-1] # The most similar will be the document itself, so i take it out and retrieve an extra item
         rank_dic = {}
+        count = 0
+        
         for i in reversed(rank):
-            rank_dic[self.docs_names[i]] = sim[i]
+            if (count < ranking):
+                rank_dic[self.docs_names[i]] = sim[i]
+                count += 1
 
         return rank_dic
         

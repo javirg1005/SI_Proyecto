@@ -28,9 +28,9 @@ class MyWindow(QtWidgets.QMainWindow):
         
 
     def fill_combobox(self):
-        self.cb_fuente.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
-        self.cb_filtro_fuente.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
-        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20Minutos", "ElMundo", "ElPais"])
+        self.cb_fuente.addItems(["Escoger fuente", "20 minutos", "El Mundo", "El Pais"])
+        self.cb_filtro_fuente.addItems(["Escoger fuente", "20 minutos", "El Mundo", "El Pais"])
+        self.cb_filtro_fuente_1.addItems(["Escoger fuente", "20 minutos", "El Mundo", "El Pais"])
         self.cb_category.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_filtro_categ.addItems(["Escoger categoría", "ciencia", "salud", "tecnologia"])
         self.cb_new.addItem("Escoger noticia")
@@ -48,7 +48,7 @@ class MyWindow(QtWidgets.QMainWindow):
 
     def fill_cb_news_files(self):
         # fill every news txt name
-        fuente = self.cb_fuente.currentText()
+        fuente = self.getFuente(self.cb_fuente.currentText())
         categoria = self.cb_category.currentText()
         if (fuente == "Escoger fuente" or categoria == "Escoger categoría"):
             self.tx_preview.clear()
@@ -65,7 +65,7 @@ class MyWindow(QtWidgets.QMainWindow):
             
 
     def on_cb_new_changed(self, value):
-        fuente = self.cb_fuente.currentText()
+        fuente = self.getFuente(self.cb_fuente.currentText()) 
         categoria = self.cb_category.currentText()
         if (value == "Escoger noticia" or fuente == "Escoger fuente" or categoria == "Escoger categoría" or value == ""):
             self.tx_preview.clear()
@@ -82,7 +82,7 @@ class MyWindow(QtWidgets.QMainWindow):
         query = self.tx_preview.toPlainText()
         self.tx_noticia.clear()
         if query != "":
-            source_filter = self.cb_filtro_fuente.currentText()
+            source_filter = self.getFuente(self.cb_filtro_fuente.currentText()) 
             category_filter = self.cb_filtro_categ.currentText()
             top = int(self.cb_top.currentText())
             self.ql_ranking_2.clear()
@@ -139,13 +139,13 @@ class MyWindow(QtWidgets.QMainWindow):
         query = self.tx_query.toPlainText()
         self.tx_noticia_1.clear()
         if query != "":
-            source_filter = self.cb_filtro_fuente_1.currentText()
+            source_filter = self.getFuente(self.cb_filtro_fuente_1.currentText()) 
             top = int(self.cb_top_1.currentText())
             self.ql_ranking_1.clear()
             self.ranking_paths.clear()
             # Si no ha escogido filtro
             if source_filter == "Escoger fuente":
-                sim = self.process.query_sim_ranking(query, top)
+                sim = self.process.query_sim_ranking(query, top, modo ='b')
             else:
                 sim = self.process.query_sim_ranking_source_filtered(query, top, source_filter)
             
@@ -186,6 +186,20 @@ class MyWindow(QtWidgets.QMainWindow):
             reco.append(var)
             n=n+1
         return reco 
+
+    def getFuente(self, fuente):
+        fuente_path = ''
+        if(fuente == '20 minutos'):
+            fuente_path = '20minutos'
+        elif (fuente == 'El Mundo'):
+            fuente_path = 'ElMundo'
+        elif (fuente == 'El Pais'):
+            fuente_path = 'elpais'
+        else:
+            fuente_path = 'Escoger fuente'
+
+        return fuente_path
+
     '''
     def dice_coefficient_v2(self,a,b): 
         if not len(a) or not len(b): 
